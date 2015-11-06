@@ -43,11 +43,13 @@ ________________________________________________________________________________
 --------------------------------------------------------------------------------
 > Git attribute data also allows you to do some interesting things when exporting an archive of your project.
 
+```markdown
 .git                    export-ignore
 .gitignore              export-ignore
 .gitattributes          export-ignore
 .travis.yml             export-ignore
 codesniffer.ruleset.xml export-ignore
+```
 
 https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#Exporting-Your-Repository
 
