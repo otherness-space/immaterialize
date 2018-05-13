@@ -104,15 +104,29 @@ add_action( 'widgets_init', 'immaterialize_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
-function immaterialize_scripts() {
 
+function materialize_scripts() {
 	wp_register_style( 'materialize', get_template_directory_uri() . '/assets/css/materialize.css', null, all );
 	wp_register_style( 'materialize-min', get_template_directory_uri() . '/assets/css/materialize.min.css', null, all );
 	wp_register_style( 'materialize-scss', get_template_directory_uri() . '/sass/materialize.scss', null, all );
 
-	wp_enqueue_style( materialize, get_stylesheet_uri(), '', null, all );
-	wp_enqueue_style( materialize-min, get_stylesheet_uri(), '', null, all );
-	wp_enqueue_style( materialize-scss, get_stylesheet_uri(), '', null, all );
+	wp_enqueue_style( 'materialize', get_stylesheet_uri(), '', null, all );
+	wp_enqueue_style( 'materialize-min', get_stylesheet_uri(), '', null, all );
+	wp_enqueue_style( 'materialize-scss', get_stylesheet_uri(), '', null, all );
+
+	wp_register_script( 'materialize-js', get_template_directory_uri() . '/assets/js/materialize.js', array(), '1.0.0.', true );
+	wp_register_script( 'materialize-min-js', get_template_directory_uri() . '/assets/js/materialize.min.js', array(), '1.0.0.', true );
+
+	wp_enqueue_script( 'materialize-js', get_theme_file_uri() . '/assets/js/materialize.js', array(), '1.0.0.', true );
+	wp_enqueue_script( 'materialize-min-js', get_theme_file_uri() . '/assets/js/materialize.min.js', array(), '1.0.0.', true );
+
+/**	wp_register_script( string $handle, string $src, array $deps = array(), string|bool|null $ver = false, bool $in_footer = false )
+*/
+
+}
+add_action( 'wp_enqueue_scripts', 'materialize_scripts' );
+
+function immaterialize_scripts() {
 
 	wp_enqueue_style( 'immaterialize-style', get_stylesheet_uri() );
 
