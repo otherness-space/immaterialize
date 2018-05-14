@@ -130,8 +130,8 @@ function materialize_scripts() {
 /**
 *To reduce payload
 */
-wp_enqueue_script( 'jquery-cycle', plugins_url( '/js/jquery.cycle.min.js', __FILE__ ), array( 'jquery' ), '2.9999.8', true );
-	wp_enqueue_script( 'the-neverending-homepage', plugins_url( 'infinity.min.js', __FILE__ ), array( 'jquery' ), '4.0.0', true );
+/** wp_enqueue_script( 'jquery-cycle', plugins_url( '/js/jquery.cycle.min.js', __FILE__ ), array( 'jquery' ), '2.9999.8', true ); */
+/** wp_enqueue_script( 'the-neverending-homepage', plugins_url( 'infinity.min.js', __FILE__ ), array( 'jquery' ), '4.0.0', true ); */
 
 }
 add_action( 'wp_enqueue_scripts', 'materialize_scripts' );
