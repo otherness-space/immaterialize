@@ -106,22 +106,32 @@ add_action( 'widgets_init', 'immaterialize_widgets_init' );
  */
 
 function materialize_scripts() {
-	wp_register_style( 'materialize', get_template_directory_uri() . '/assets/css/materialize.css', null, all );
-	wp_register_style( 'materialize-min', get_template_directory_uri() . '/assets/css/materialize.min.css', null, all );
+/**	wp_register_style( 'materialize', get_template_directory_uri() . '/assets/css/materialize.css', null, all ); */
+/**	wp_register_style( 'materialize-min', get_template_directory_uri() . '/assets/css/materialize.min.css', null, all ); */
 	wp_register_style( 'materialize-scss', get_template_directory_uri() . '/sass/materialize.scss', null, all );
 
-	wp_enqueue_style( 'materialize', get_stylesheet_uri(), '', null, all );
-	wp_enqueue_style( 'materialize-min', get_stylesheet_uri(), '', null, all );
+/**	wp_enqueue_style( 'materialize', get_stylesheet_uri(), '', null, all ); */
+/**	wp_enqueue_style( 'materialize-min', get_stylesheet_uri(), '', null, all ); */
 	wp_enqueue_style( 'materialize-scss', get_stylesheet_uri(), '', null, all );
 
-	wp_register_script( 'materialize-js', get_template_directory_uri() . '/assets/js/materialize.js', array(), '1.0.0.', true );
-	wp_register_script( 'materialize-min-js', get_template_directory_uri() . '/assets/js/materialize.min.js', array(), '1.0.0.', true );
+/**	wp_register_script( 'materialize-js', get_template_directory_uri() . '/assets/js/materialize.js', array(), '1.0.0.', '' ); */
+/**	wp_register_script( 'materialize-min-js', get_template_directory_uri() . '/assets/js/materialize.min.js', array(), '1.0.0.', '' ); */
+/**	wp_register_script( 'materialize-bin-js', get_template_directory_uri() . '/assets/js/bin/materialize.js', array(), '1.0.0.', '' ); */
+	wp_register_script( 'materialize-bin-min-js', get_template_directory_uri() . '/assets/js/bin/materialize.min.js', array(), '1.0.0.', '' );
 
-	wp_enqueue_script( 'materialize-js', get_theme_file_uri() . '/assets/js/materialize.js', array(), '1.0.0.', true );
-	wp_enqueue_script( 'materialize-min-js', get_theme_file_uri() . '/assets/js/materialize.min.js', array(), '1.0.0.', true );
+/**	wp_enqueue_script( 'materialize-js', get_theme_file_uri() . '/assets/js/materialize.js', array(), '1.0.0.', '' ); */
+/**	wp_enqueue_script( 'materialize-min-js', get_theme_file_uri() . '/assets/js/materialize.min.js', array(), '1.0.0.', '' ); */
+/**	wp_enqueue_script( 'materialize-bin-js', get_theme_file_uri() . '/assets/js/bin/materialize.js', array(), '1.0.0.', '' ); */
+	wp_enqueue_script( 'materialize-bin-min-js', get_theme_file_uri() . '/assets/js/bin/materialize.min.js', array(), '1.0.0.', '' );
 
 /**	wp_register_script( string $handle, string $src, array $deps = array(), string|bool|null $ver = false, bool $in_footer = false )
 */
+
+/**
+*To reduce payload
+*/
+wp_enqueue_script( 'jquery-cycle', plugins_url( '/js/jquery.cycle.min.js', __FILE__ ), array( 'jquery' ), '2.9999.8', true );
+	wp_enqueue_script( 'the-neverending-homepage', plugins_url( 'infinity.min.js', __FILE__ ), array( 'jquery' ), '4.0.0', true );
 
 }
 add_action( 'wp_enqueue_scripts', 'materialize_scripts' );
