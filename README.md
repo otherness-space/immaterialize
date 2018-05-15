@@ -16,17 +16,22 @@
 ________________________________________________________________________________
 ## About [:rewind:](#read-me)
 
+This theme is called Immaterialize and is in some sort of alpha stage. The conceit of the theme is that it began as "a starter theme called `_s`, or `underscores`, if you like" which was downloaded, with sass installed, from http://underscores.me/ and interlaced with Materialize, v1.0.0rc. "a modern responsive front-end framework based on Material Design." Materialize, by Alvin Wang, Alan Chang, Alex Mark, and Kevin Louie, includes AnimeJS, the JavaScript Animation Engine by Julian Garner; Cash-dom by Ken Wheeler and Waves by Alfiana E. Sibuea and other contributors. I have noticed that most of the third-party code that is utilized by Materialize is not up-to-date with each individual project's current version.
+
 ### Who [:rewind:](#read-me)
 
+Your Mom.
 
 ### What [:rewind:](#read-me)
 
+WP theme in some sort of alpha stage. While Materialize is registered and enqueued it has not been completely checked.
 
 ### Where [:rewind:](#read-me)
 
 
 ### Why [:rewind:](#read-me)
 
+Also Your Mom.
 
 ________________________________________________________________________________
 ## Notes [:rewind:](#read-me)
@@ -62,7 +67,7 @@ ________________________________________________________________________________
 
 == Credits ==
 
-Third party resources used in this theme. Each resource uses a GPL compatible license. The resources are listed according to each individual license as noted and have links where applicable.
+Third party resources applied in this theme. Each resource uses a GPL compatible license. The resources are listed according to each individual license, as noted, and have links where applicable.
 
 * Copyright (c) 2014-2018 Materialize, v1.0.0-beta
   * https://github.com/Dogfalo/materialize
@@ -73,7 +78,7 @@ Third party resources used in this theme. Each resource uses a GPL compatible li
   * http://animejs.com/documentation/
   * https://github.com/juliangarnier/anime
   * MIT
-* cash-dom 1.3.5,
+* Cash-dom 1.3.5,
   * https://github.com/kenwheeler/cash
   * MIT
 * Waves v0.6.4
