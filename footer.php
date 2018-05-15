@@ -13,11 +13,19 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'immaterialize' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'immaterialize' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'immaterialize' ) ); ?>">
+				<?php
+				/* translators: %s: CMS name, i.e. WordPress. */
+				printf( esc_html__( 'Proudly powered by %s', 'immaterialize' ), 'WordPress' );
+				?>
+			</a>
 			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'immaterialize' ), 'immaterialize', '<a href="https://automattic.com/" rel="designer">Rob Goodfellow</a>' ); ?>
+				<?php
+				/* translators: 1: Theme name, 2: Theme author. */
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'immaterialize' ), 'immaterialize', '<a href="https://github.com/otherness-space/immaterialize">Rob Goodfellow</a>' );
+				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
