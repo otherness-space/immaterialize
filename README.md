@@ -19,6 +19,8 @@ ________________________________________________________________________________
 
 This WP  theme is called Immaterialize and is in some sort of alpha stage. The conceit of the theme is that it began as "a starter theme called `_s`, or `underscores`, if you like" which was downloaded, with sass installed, from http://underscores.me/ and interlaced with Materialize, v1.0.0rc. "a modern responsive front-end framework based on Material Design." Therefore, "Immaterialize is based on [Underscores](https://underscores.me/), (C) 2012-2017 Automattic, Inc."
 
+"This theme, like WordPress, is licensed under the GPL. Underscores is distributed under the terms of the GNU GPL v2 or later." The Immaterialize theme is distributed under the terms of the GNU GPL v2 or later
+
 Materialize, by Alvin Wang, Alan Chang, Alex Mark, and Kevin Louie, includes code from AnimeJS, the JavaScript Animation Engine by Julian Garner; Cash-dom by Ken Wheeler and Waves by Alfiana E. Sibuea and other contributors.
 
 Names, licenses, and links are [credited below](#credits-rewind).
