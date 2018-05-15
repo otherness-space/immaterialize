@@ -21,7 +21,7 @@ This WP  theme is called Immaterialize and is in some sort of alpha stage. The c
 
 Materialize, by Alvin Wang, Alan Chang, Alex Mark, and Kevin Louie, includes code from AnimeJS, the JavaScript Animation Engine by Julian Garner; Cash-dom by Ken Wheeler and Waves by Alfiana E. Sibuea and other contributors.
 
-Names, licenses, and links are credited below.
+Names, licenses, and links are [credited below](#credits-rewind).
 
 I have noticed that most of the third-party code that is utilized by Materialize is not up-to-date with each individual project's current version.
 
