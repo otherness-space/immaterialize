@@ -98,7 +98,8 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
   * http://animejs.com/documentation/
   * https://github.com/juliangarnier/anime
   * MIT
-* Cash-dom 1.3.5,
+* Cash-dom 1.3.5
+  * Copyright (c) 2014-present Ken Wheeler
   * https://github.com/kenwheeler/cash
   * MIT
 * Waves v0.6.4
