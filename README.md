@@ -16,7 +16,9 @@
 ________________________________________________________________________________
 ## About [:rewind:](#read-me)
 
-This theme is called Immaterialize and is in some sort of alpha stage. The conceit of the theme is that it began as "a starter theme called `_s`, or `underscores`, if you like" which was downloaded, with sass installed, from http://underscores.me/ and interlaced with Materialize, v1.0.0rc. "a modern responsive front-end framework based on Material Design." Materialize, by Alvin Wang, Alan Chang, Alex Mark, and Kevin Louie, includes AnimeJS, the JavaScript Animation Engine by Julian Garner; Cash-dom by Ken Wheeler and Waves by Alfiana E. Sibuea and other contributors. I have noticed that most of the third-party code that is utilized by Materialize is not up-to-date with each individual project's current version.
+This WP  theme is called Immaterialize and is in some sort of alpha stage. The conceit of the theme is that it began as "a starter theme called `_s`, or `underscores`, if you like" which was downloaded, with sass installed, from http://underscores.me/ and interlaced with Materialize, v1.0.0rc. "a modern responsive front-end framework based on Material Design." Therefore, "Immaterialize is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc."
+Materialize, by Alvin Wang, Alan Chang, Alex Mark, and Kevin Louie, includes AnimeJS, the JavaScript Animation Engine by Julian Garner; Cash-dom by Ken Wheeler and Waves by Alfiana E. Sibuea and other contributors.
+I have noticed that most of the third-party code that is utilized by Materialize is not up-to-date with each individual project's current version.
 
 ### Who [:rewind:](#read-me)
 
@@ -25,6 +27,7 @@ Your Mom.
 ### What [:rewind:](#read-me)
 
 WP theme in some sort of alpha stage. While Materialize is registered and enqueued it has not been completely checked.
+The plan is to develop a basic Customizer using the elaborate [Make][https://thethemefoundry.com/wordpress-themes/make/], by The Theme Foundary, as a starting point. The plan from there is to elaborate the bare bones of the starter theme's framework.
 
 ### Where [:rewind:](#read-me)
 
