@@ -153,6 +153,8 @@ add_action( 'wp_enqueue_scripts', 'materialize_scripts' );
  */
 function immaterialize_scripts() {
 	wp_enqueue_style( 'immaterialize-style', get_stylesheet_uri() );
+	wp_register_style( 'immaterialize-scss', get_template_directory_uri() . '/sass/style.scss', null, all );
+	wp_enqueue_style( 'materialize-scss', get_stylesheet_uri(), '', null, all );
 
 	wp_enqueue_script( 'immaterialize-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20151215', true );
 
