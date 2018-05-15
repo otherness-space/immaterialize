@@ -13,12 +13,16 @@
 ##### [.gitattributes](#gitattributes-rewind)
 ##### [.gitignore](#gitignore-rewind)
 ##### [.exclude](#exclude-rewind)
+### [Credits](#credits-rewind)
 ________________________________________________________________________________
 ## About [:rewind:](#read-me)
 
 This WP  theme is called Immaterialize and is in some sort of alpha stage. The conceit of the theme is that it began as "a starter theme called `_s`, or `underscores`, if you like" which was downloaded, with sass installed, from http://underscores.me/ and interlaced with Materialize, v1.0.0rc. "a modern responsive front-end framework based on Material Design." Therefore, "Immaterialize is based on [Underscores](https://underscores.me/), (C) 2012-2017 Automattic, Inc."
+
 Materialize, by Alvin Wang, Alan Chang, Alex Mark, and Kevin Louie, includes code from AnimeJS, the JavaScript Animation Engine by Julian Garner; Cash-dom by Ken Wheeler and Waves by Alfiana E. Sibuea and other contributors.
+
 Names, licenses, and links are credited below.
+
 I have noticed that most of the third-party code that is utilized by Materialize is not up-to-date with each individual project's current version.
 
 ### Who [:rewind:](#read-me)
@@ -29,17 +33,17 @@ Your Mom.
 
 WP theme in some sort of alpha stage. While Materialize is registered and enqueued it has not been completely checked.
 The plan
-[] Develop away from the underscores' basic Customizer using the elaborate [Make](https://thethemefoundry.com/wordpress-themes/make/), by The Theme Foundry, as a reference point.
-  [] Typography
-  [] Colors
-[] Sketch out a more elaborate use of responsive delivery using Materialize.
-{} Enable Materialize within existing barebones framework.
-[] Elaborate the bare bones of the starter theme's framework.
-  [] Posts
-  [] Pages
-  [] Events
-  [] Custom Post Types
-  [] User roles
+- [ ] Develop away from the underscores' basic Customizer using the elaborate [Make](https://thethemefoundry.com/wordpress-themes/make/), by The Theme Foundry, as a reference point.
+  - [ ] Typography
+  - [ ] Colors
+- [ ] Sketch out a more elaborate use of responsive delivery using Materialize.
+- [ ] Enable Materialize within existing barebones framework.
+- [ ] Elaborate the bare bones of the starter theme's framework.
+  - [ ] Posts
+  - [ ] Pages
+  - [ ] Events
+  - [ ] Custom Post Types
+  - [ ] User roles
 
 
 ### Where [:rewind:](#read-me)
@@ -81,7 +85,7 @@ https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#Exporting-Your-Rep
 
 ________________________________________________________________________________
 
-== Credits ==
+### Credits [:rewind:](#read-me)
 
 Third party resources applied in this theme. Each resource uses a GPL compatible license. The resources are listed according to each individual license, as noted, and have links where applicable.
 
