@@ -117,38 +117,6 @@ function immaterialize_widgets_init() {
 add_action( 'widgets_init', 'immaterialize_widgets_init' );
 
 /**
- * Enqueue Materialize scripts and styles.
- */
-function materialize_scripts() {
-/**	wp_register_style( 'materialize', get_template_directory_uri() . '/assets/css/materialize.css', null, all ); */
-/**	wp_register_style( 'materialize-min', get_template_directory_uri() . '/assets/css/materialize.min.css', null, all ); */
-	wp_register_style( 'materialize-scss', get_template_directory_uri() . '/sass/materialize.scss', null, all );
-
-/**	wp_enqueue_style( 'materialize', get_stylesheet_uri(), '', null, all ); */
-/**	wp_enqueue_style( 'materialize-min', get_stylesheet_uri(), '', null, all ); */
-	wp_enqueue_style( 'materialize-scss', get_stylesheet_uri(), '', null, all );
-
-/**	wp_register_script( 'materialize-js', get_template_directory_uri() . '/assets/js/materialize.js', array(), '1.0.0.', '' ); */
-/**	wp_register_script( 'materialize-min-js', get_template_directory_uri() . '/assets/js/materialize.min.js', array(), '1.0.0.', '' ); */
-/**	wp_register_script( 'materialize-bin-js', get_template_directory_uri() . '/assets/js/bin/materialize.js', array(), '1.0.0.', '' ); */
-	wp_register_script( 'materialize-bin-min-js', get_template_directory_uri() . '/assets/js/bin/materialize.min.js', array(), '1.0.0.', '' );
-
-/**	wp_enqueue_script( 'materialize-js', get_theme_file_uri() . '/assets/js/materialize.js', array(), '1.0.0.', '' ); */
-/**	wp_enqueue_script( 'materialize-min-js', get_theme_file_uri() . '/assets/js/materialize.min.js', array(), '1.0.0.', '' ); */
-/**	wp_enqueue_script( 'materialize-bin-js', get_theme_file_uri() . '/assets/js/bin/materialize.js', array(), '1.0.0.', '' ); */
-	wp_enqueue_script( 'materialize-bin-min-js', get_theme_file_uri() . '/assets/js/bin/materialize.min.js', array(), '1.0.0.', '' );
-
-/**	wp_register_script( string $handle, string $src, array $deps = array(), string|bool|null $ver = false, bool $in_footer = false ) */
-
-/**
-*To reduce payload
-*/
-/** wp_enqueue_script( 'jquery-cycle', plugins_url( '/js/jquery.cycle.min.js', __FILE__ ), array( 'jquery' ), '2.9999.8', true ); */
-/** wp_enqueue_script( 'the-neverending-homepage', plugins_url( 'infinity.min.js', __FILE__ ), array( 'jquery' ), '4.0.0', true ); */
-}
-add_action( 'wp_enqueue_scripts', 'materialize_scripts' );
-
-/**
  * Enqueue scripts and styles.
  */
 function immaterialize_scripts() {
@@ -192,6 +160,97 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+/**
+ * Enqueue Materialize scripts and styles.
+ */
+function materialize_scripts() {
+/**	wp_register_style( 'materialize', get_template_directory_uri() . '/assets/css/materialize.css', null, all ); */
+/**	wp_register_style( 'materialize-min', get_template_directory_uri() . '/assets/css/materialize.min.css', null, all ); */
+	wp_register_style( 'materialize-scss', get_template_directory_uri() . '/sass/materialize.scss', null, all );
+
+/**	wp_enqueue_style( 'materialize', get_stylesheet_uri(), '', null, all ); */
+/**	wp_enqueue_style( 'materialize-min', get_stylesheet_uri(), '', null, all ); */
+	wp_enqueue_style( 'materialize-scss', get_stylesheet_uri(), '', null, all );
+
+/**	wp_register_script( 'materialize-js', get_template_directory_uri() . '/assets/js/materialize.js', array(), '1.0.0.', '' ); */
+/**	wp_register_script( 'materialize-min-js', get_template_directory_uri() . '/assets/js/materialize.min.js', array(), '1.0.0.', '' ); */
+/**	wp_register_script( 'materialize-bin-js', get_template_directory_uri() . '/assets/js/bin/materialize.js', array(), '1.0.0.', '' ); */
+/**	wp_register_script( 'materialize-bin-min-js', get_template_directory_uri() . '/assets/js/bin/materialize.min.js', array(), '1.0.0.', '' ); */
+	wp_register_script( 'materialize-anime-min-js', get_template_directory_uri() . '/assets/js/anime.min.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-autocomplete-js', get_template_directory_uri() . '/assets/js/autocomplete.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-buttons-js', get_template_directory_uri() . '/assets/js/buttons.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-cards-js', get_template_directory_uri() . '/assets/js/cards.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-carousel-js', get_template_directory_uri() . '/assets/js/carousel.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-cash-js', get_template_directory_uri() . '/assets/js/cash.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-characterCounter-js', get_template_directory_uri() . '/assets/js/characterCounter.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-chips-js', get_template_directory_uri() . '/assets/js/chips.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-collapsible-js', get_template_directory_uri() . '/assets/js/collapsible.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-component-js', get_template_directory_uri() . '/assets/js/component.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-datepicker-js', get_template_directory_uri() . '/assets/js/datepicker.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-dropdown-js', get_template_directory_uri() . '/assets/js/dropdown.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-forms-js', get_template_directory_uri() . '/assets/js/forms.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-global-js', get_template_directory_uri() . '/assets/js/global.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-materialbox-js', get_template_directory_uri() . '/assets/js/materialbox.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-modal-js', get_template_directory_uri() . '/assets/js/modal.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-parallax-js', get_template_directory_uri() . '/assets/js/parallax.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-pushpin-js', get_template_directory_uri() . '/assets/js/pushpin.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-range-js', get_template_directory_uri() . '/assets/js/range.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-scrollspy-js', get_template_directory_uri() . '/assets/js/scrollspy.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-select-js', get_template_directory_uri() . '/assets/js/select.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-sidenav-js', get_template_directory_uri() . '/assets/js/sidenav.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-slider-js', get_template_directory_uri() . '/assets/js/slider.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-tabs-js', get_template_directory_uri() . '/assets/js/tabs.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-tapTarget-js', get_template_directory_uri() . '/assets/js/tapTarget.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-timepicker-js', get_template_directory_uri() . '/assets/js/timepicker.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-toasts-js', get_template_directory_uri() . '/assets/js/toasts.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-tooltip-js', get_template_directory_uri() . '/assets/js/tooltip.js', array(), '1.0.0.', '' );
+	wp_register_script( 'materialize-waves-js', get_template_directory_uri() . '/assets/js/waves.js', array(), '1.0.0.', '' );
+
+	wp_enqueue_script( 'materialize-anime-min-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-autocomplete-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-buttons-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-cards-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-carousel-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-cash-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-characterCounter-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-chips-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-collapsible-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-component-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-datepicker-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-dropdown-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-forms-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-global-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-materialbox-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-modal-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-parallax-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-pushpin-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-range-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-scrollspy-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-select-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-sidenav-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-slider-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-tabs-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-tapTarget-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-timepicker-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-toasts-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-tooltip-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+	wp_enqueue_script( 'materialize-waves-js', get_theme_file_uri() . '', array(), '1.0.0.', '' );
+
+/**	wp_enqueue_script( 'materialize-js', get_theme_file_uri() . '/assets/js/materialize.js', array(), '1.0.0.', '' ); */
+/**	wp_enqueue_script( 'materialize-min-js', get_theme_file_uri() . '/assets/js/materialize.min.js', array(), '1.0.0.', '' ); */
+/**	wp_enqueue_script( 'materialize-bin-js', get_theme_file_uri() . '/assets/js/bin/materialize.js', array(), '1.0.0.', '' ); */
+/**	wp_enqueue_script( 'materialize-bin-min-js', get_theme_file_uri() . '/assets/js/bin/materialize.min.js', array(), '1.0.0.', '' ); */
+
+/**	wp_register_script( string $handle, string $src, array $deps = array(), string|bool|null $ver = false, bool $in_footer = false ) */
+
+/**
+*To reduce payload
+*/
+/** wp_enqueue_script( 'jquery-cycle', plugins_url( '/js/jquery.cycle.min.js', __FILE__ ), array( 'jquery' ), '2.9999.8', true ); */
+/** wp_enqueue_script( 'the-neverending-homepage', plugins_url( 'infinity.min.js', __FILE__ ), array( 'jquery' ), '4.0.0', true ); */
+}
+add_action( 'wp_enqueue_scripts', 'materialize_scripts' );
 
 /**
  * Will prevent the Toolbar from rendering on the front end of site
