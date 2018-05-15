@@ -65,19 +65,19 @@ ________________________________________________________________________________
 Third party resources used in this theme. Each resource uses a GPL compatible license. The resources are listed according to each individual license as noted and have links where applicable.
 
 * Copyright (c) 2014-2018 Materialize, v1.0.0-beta
-* https://github.com/Dogfalo/materialize
-* MIT
+  * https://github.com/Dogfalo/materialize
+  * MIT
 * anime.min.js, v2.2.0, JavaScript Animation Engine
-* 2017 Julian Garnier
-* http://animejs.com
-* http://animejs.com/documentation/
-* https://github.com/juliangarnier/anime
-* MIT
+  * 2017 Julian Garnier
+  * http://animejs.com
+  * http://animejs.com/documentation/
+  * https://github.com/juliangarnier/anime
+  * MIT
 * cash-dom 1.3.5,
-* https://github.com/kenwheeler/cash
-* MIT
+  * https://github.com/kenwheeler/cash
+  * MIT
 * Waves v0.6.4
-* Copyright 2014 Alfiana E. Sibuea and other contributors
-* http://fian.my.id/Waves
-* https://github.com/fians/Waves
-* MIT
+  * Copyright 2014 Alfiana E. Sibuea and other contributors
+  * http://fian.my.id/Waves
+  * https://github.com/fians/Waves/blob/master/LICENSE
+  * MIT
