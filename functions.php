@@ -159,3 +159,8 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/**
+ * Will prevent the Toolbar from rendering on the front end of site
+ * https://codex.wordpress.org/Function_Reference/show_admin_bar
+ */
+show_admin_bar( false );
