@@ -4,7 +4,6 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- *
  * @package Immaterialize
  */
 
@@ -242,6 +241,7 @@ function materialize_scripts() {
 /** wp_enqueue_script( 'the-neverending-homepage', plugins_url( 'infinity.min.js', __FILE__ ), array( 'jquery' ), '4.0.0', true ); */
 }
 add_action( 'wp_enqueue_scripts', 'materialize_scripts' );
+
 
 /**
  * Customizer additions.
