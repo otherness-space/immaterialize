@@ -7,7 +7,6 @@
  * @package Immaterialize
  */
 
-
 if ( ! function_exists( 'immaterialize_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
