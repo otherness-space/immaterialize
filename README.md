@@ -6,13 +6,11 @@
 #### [Notes](#notes-rewind)
 
 ##### [Note 1](#note-1-rewind) | [Note 2](#note-2-rewind)
-                                                                                                                       
-#### [Appendix](#appendix-rewind)                                                                                      
-##### [.gitattributes](#gitattributes-rewind)
-##### [.gitignore](#gitignore-rewind)
-##### [.exclude](#exclude-rewind)
 
-### [Credits](#credits-rewind)                                                                                         |
+#### [Appendix](#appendix-rewind)                                                                                      
+##### [.gitattributes](#gitattributes-rewind) | [.gitignore](#gitignore-rewind) | [.exclude](#exclude-rewind)
+
+### [Credits](#credits-rewind)
 -----------------------------------------------------------------------------------------------------------------------
 ## About [:rewind:](#read-me)
 
