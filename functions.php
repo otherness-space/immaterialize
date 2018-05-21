@@ -121,12 +121,12 @@ add_action( 'widgets_init', 'immaterialize_widgets_init' );
  */
 function immaterialize_scripts() {
 	wp_enqueue_style( 'immaterialize-style', get_stylesheet_uri() );
-	wp_register_style( 'immaterialize-scss', get_template_directory_uri() . '/sass/style.scss', null, all );
-	wp_enqueue_style( 'materialize-scss', get_stylesheet_uri(), '', null, all );
+	wp_register_style( 'immaterialize-scss', get_template_directory_uri() . '/sass/style.scss', 'null', 'all' );
+	wp_enqueue_style( 'materialize-scss', get_stylesheet_uri(), '', 'null', 'all' );
 
-	wp_enqueue_script( 'immaterialize-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'immaterialize-navigation', get_template_directory_uri() . '/assets/js/navigation.min.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'immaterialize-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'immaterialize-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.min.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -153,18 +153,22 @@ require get_template_directory() . '/inc/template-functions.php';
  * Enqueue Materialize scripts and styles.
  */
 function materialize_scripts() {
-/**	wp_register_style( 'materialize', get_template_directory_uri() . '/assets/css/materialize.css', null, all ); */
-/**	wp_register_style( 'materialize-min', get_template_directory_uri() . '/assets/css/materialize.min.css', null, all ); */
-	wp_register_style( 'materialize-scss', get_template_directory_uri() . '/sass/materialize.scss', null, all );
+/**	wp_register_style( 'materialize', get_template_directory_uri() . '/assets/css/materialize.css', 'null', 'all' ); */
+	wp_register_style( 'materialize-min', get_template_directory_uri() . '/assets/css/materialize.min.css', 'null', 'all' );
+	wp_register_style( 'materialize-scss', get_template_directory_uri() . '/sass/materialize.scss', '', 'all' );
 
-/**	wp_enqueue_style( 'materialize', get_stylesheet_uri(), '', null, all ); */
-/**	wp_enqueue_style( 'materialize-min', get_stylesheet_uri(), '', null, all ); */
-	wp_enqueue_style( 'materialize-scss', get_stylesheet_uri(), '', null, all );
+/**	wp_enqueue_style( 'materialize', get_stylesheet_uri(), '', 'null', 'all' ); */
+	wp_enqueue_style( 'materialize-min', get_stylesheet_uri(), '', 'null', 'all' );
+	wp_enqueue_style( 'materialize-scss', get_stylesheet_uri(), '', '', 'all' );
 
 /**	wp_register_script( 'materialize-js', get_template_directory_uri() . '/assets/js/materialize.js', array(), '1.0.0.', '' ); */
 /**	wp_register_script( 'materialize-min-js', get_template_directory_uri() . '/assets/js/materialize.min.js', array(), '1.0.0.', '' ); */
 /**	wp_register_script( 'materialize-bin-js', get_template_directory_uri() . '/assets/js/bin/materialize.js', array(), '1.0.0.', '' ); */
 	wp_register_script( 'materialize-bin-min-js', get_template_directory_uri() . '/assets/js/bin/materialize.min.js', array(), '1.0.0.', '' );
+
+	/**	wp_enqueue_style( 'materialize', get_stylesheet_uri(), '', 'null', 'all' ); */
+	/**	wp_enqueue_style( 'materialize-min', get_stylesheet_uri(), '', 'null', 'all' ); */
+	wp_enqueue_style( 'materialize-scss', get_stylesheet_uri(), '', 'null', 'all' );
 
 /**	wp_register_script( 'materialize-anime-min-js', get_template_directory_uri() . '/assets/js/anime.min.js', array(), '1.0.0.', '' ); */
 /**	wp_register_script( 'materialize-autocomplete-js', get_template_directory_uri() . '/assets/js/autocomplete.js', array(), '1.0.0.', '' ); */
@@ -244,13 +248,13 @@ add_action( 'wp_enqueue_scripts', 'materialize_scripts' );
 /**
  * Customizer additions.
  */
-require get_template_directory() . '/inc/customizer.';
+require get_template_directory() . '/inc/customizer.php';
 
 /**
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
-	require get_template_directory() . '/inc/jetpack.';
+	require get_template_directory() . '/inc/jetpack.php';
 }
 
 /**
