@@ -246,6 +246,39 @@ function materialize_scripts() {
 add_action( 'wp_enqueue_scripts', 'materialize_scripts' );
 
 /**
+	* HOW TO IMPLEMENT PRISM.JS SYNTAX HIGHLIGHTING INTO YOUR WORDPRESS SITE
+	* http://crambler.com/how-to-implement-prism-js-syntax-highlighting-into-your-wordpress-site/
+	*/
+
+	// Function to add prism.css and prism.js to the site
+function add_prism() {
+	/** Register prism.css file, handle name for the style so we can register,
+	* de-register, etc., location of the prism.css file
+	*/
+	wp_register_style(
+	'prismCSS',
+	get_stylesheet_directory_uri() . '/assets/css/prism.min.css'
+	);
+	/** Register prism.js file, handle name for the script so we can register,
+	* de-register, etc., location of the prism.js file
+	*/
+	wp_register_script(
+	'prismJS',
+	get_stylesheet_directory_uri() . '/assets/js/bin/prism.min.js'
+	);
+	/**
+	* Enqueue the registered style and script files
+	*/
+	wp_enqueue_style('prismCSS');
+	wp_enqueue_script('prismJS');
+}
+add_action('wp_enqueue_scripts', 'add_prism');
+
+/**
+	*
+	*/
+
+/**
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
