@@ -1,13 +1,13 @@
 # Read Me
 
-## Contents                                                                                                            
+## Contents
 ##### [About](#about-rewind) | [Who](#who-rewind) | [What](#what-rewind) | [Where](#where-rewind) | [Why](#why-rewind)
 
 #### [Notes](#notes-rewind)
 
 ##### [Note 1](#note-1-rewind) | [Note 2](#note-2-rewind)
 
-#### [Appendix](#appendix-rewind)                                                                                      
+#### [Appendix](#appendix-rewind)
 ##### [.gitattributes](#gitattributes-rewind) | [.gitignore](#gitignore-rewind) | [.exclude](#exclude-rewind)
 
 ### [Credits](#credits-rewind)
@@ -32,6 +32,11 @@ WP theme in some sort of alpha stage. While Materialize is registered and enqueu
 The plan
 - [x] Add PrismJS
 - [ ] Add HTML5 Boilerplate
+  - [ ] Materialize, v1.0.0-beta deploys normalize.css v7.0.0. HTML5 Boilerplate, v6.1.0 deploys normalize.css v8.0.0
+  - [ ] HTML5 Boilerplate main.css may have  styles beneficial after a closer reading
+  - [ ] Modernizr 3.6.0 (Custom Build) deserves a closer reading. https://modernizr.com/download/?-cssanimations-csscolumns-customelements-flexbox-history-picture-pointerevents-postmessage-sizes-srcset-webgl-websockets-webworkers-addtest-domprefixes-hasevent-mq-prefixedcssvalue-prefixes-setclasses-testallprops-testprop-teststyles
+  - [ ] Is there a benefit to jquery at this time?
+  - [ ] Further look if it is useful to pursue a "simple, quick way to concatenate, minify, and version static files in a Wordpress theme" https://gist.github.com/necolas/2347014
 - [ ] Develop away from the underscores' basic Customizer using the elaborate [Make](https://thethemefoundry.com/wordpress-themes/make/), by The Theme Foundry, as a reference point.
   - [ ] Typography
   - [ ] Colors
@@ -105,4 +110,8 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
   * Copyright 2014 Alfiana E. Sibuea and other contributors
   * http://fian.my.id/Waves
   * https://github.com/fians/Waves/blob/master/LICENSE
+  * MIT
+* Normalize.css v7.0.0
+  * Copyright © Aug 14, 2012-present Nicolas Gallagher and Jonathan Neal
+  * http://github.com/necolas/normalize.css
   * MIT
