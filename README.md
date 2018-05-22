@@ -30,7 +30,7 @@ Your Mom.
 
 WP theme in some sort of alpha stage. While Materialize is registered and enqueued it has not been completely checked.
 The plan
-- [*] Add PrismJS
+- [x] Add PrismJS
 - [ ] Add HTML5 Boilerplate
 - [ ] Develop away from the underscores' basic Customizer using the elaborate [Make](https://thethemefoundry.com/wordpress-themes/make/), by The Theme Foundry, as a reference point.
   - [ ] Typography
