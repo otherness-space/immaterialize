@@ -1,20 +1,17 @@
 # Read Me
 
-## Contents
-#### [About](#about-rewind)
-##### [Who](#who-rewind)
-##### [What](#what-rewind)
-##### [Where](#where-rewind)
-##### [Why](#why-rewind)
+## Contents                                                                                                            
+##### [About](#about-rewind) | [Who](#who-rewind) | [What](#what-rewind) | [Where](#where-rewind) | [Why](#why-rewind)
+
 #### [Notes](#notes-rewind)
-##### [Note 1](#note-1-rewind)
-##### [Note 2](#note-2-rewind)
-#### [Appendix](#appendix-rewind)
-##### [.gitattributes](#gitattributes-rewind)
-##### [.gitignore](#gitignore-rewind)
-##### [.exclude](#exclude-rewind)
+
+##### [Note 1](#note-1-rewind) | [Note 2](#note-2-rewind)
+
+#### [Appendix](#appendix-rewind)                                                                                      
+##### [.gitattributes](#gitattributes-rewind) | [.gitignore](#gitignore-rewind) | [.exclude](#exclude-rewind)
+
 ### [Credits](#credits-rewind)
-________________________________________________________________________________
+-----------------------------------------------------------------------------------------------------------------------
 ## About [:rewind:](#read-me)
 
 This WP  theme is called Immaterialize and is in some sort of alpha stage. The conceit of the theme is that it began as "a starter theme called `_s`, or `underscores`, if you like" which was downloaded, with sass installed, from http://underscores.me/ and interlaced with Materialize, v1.0.0rc. "a modern responsive front-end framework based on Material Design." Therefore, "Immaterialize is based on [Underscores](https://underscores.me/), (C) 2012-2017 Automattic, Inc."
@@ -33,7 +30,8 @@ Your Mom.
 
 WP theme in some sort of alpha stage. While Materialize is registered and enqueued it has not been completely checked.
 The plan
-- [ ] Develop away from the underscores' basic Customizer using the elaborate [Make](https://thethemefoundry.com/wordpress-themes/make/), by The Theme Foundry, as a reference point.
+- [ ] Add PrismJS
+  [ ] Develop away from the underscores' basic Customizer using the elaborate [Make](https://thethemefoundry.com/wordpress-themes/make/), by The Theme Foundry, as a reference point.
   - [ ] Typography
   - [ ] Colors
 - [ ] Sketch out a more elaborate use of responsive delivery using Materialize.
