@@ -31,7 +31,6 @@ Your Mom.
 WP theme in some sort of alpha stage. While Materialize is registered and enqueued it has not been completely checked.
 The plan
 - [x] Add PrismJS
-- [ ] Add HTML5 Boilerplate
 - [ ] Develop away from the underscores' basic Customizer using the elaborate [Make](https://thethemefoundry.com/wordpress-themes/make/), by The Theme Foundry, as a reference point.
   - [ ] Typography
   - [ ] Colors
@@ -43,6 +42,7 @@ The plan
   - [ ] Events
   - [ ] Custom Post Types
   - [ ] User roles
+- [ ] HTML5 Boilerplate. Notes on html5-boilerplate branch [README.md](https://github.com/otherness-space/immaterialize/blob/html5-boilerplate/README.md).
 
 
 ### Where [:rewind:](#read-me)
