@@ -1,6 +1,5 @@
 [![GitHub version](https://badge.fury.io/gh/otherness-space%2Fimmaterialize.svg)](https://badge.fury.io/gh/otherness-space%2Fimmaterialize)
-[![GitHub license](https://img.shields.io/github/license/otherness-space/immaterialize.svg)](https://github.com/otherness-space/immaterialize/blob/master/LICENSE)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](github.com/otherness-space/immaterialize/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](github.com/otherness-space/immaterialize/blob/master/LICENSE)
 
 
 # Read Me
