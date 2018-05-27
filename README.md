@@ -1,17 +1,23 @@
+[![GitHub version](https://badge.fury.io/gh/otherness-space%2Fimmaterialize.svg)](https://badge.fury.io/gh/otherness-space%2Fimmaterialize) [![GitHub license](https://img.shields.io/github/license/otherness-space/immaterialize.svg)](https://github.com/otherness-space/immaterialize/blob/master/LICENSE-MIT.md)
+
 # Read Me
 
-## Contents                                                                                                            
-##### [About](#about-rewind) | [Who](#who-rewind) | [What](#what-rewind) | [Where](#where-rewind) | [Why](#why-rewind) | [How](#how-rewind)
+## TOC
+##### [Quick Start](#quick-rewind) | [About](#about-rewind) | [Who](#who-rewind) | [What](#what-rewind) | [Where](#where-rewind) | [Why](#why-rewind) | [How](#how-rewind)
 
 #### [Notes](#notes-rewind)
 
 ##### [Note 1](#note-1-rewind) | [Note 2](#note-2-rewind)
 
-#### [Appendix](#appendix-rewind)                                                                                      
+#### [Appendix](#appendix-rewind)
 ##### [.gitattributes](#gitattributes-rewind) | [.gitignore](#gitignore-rewind) | [.exclude](#exclude-rewind)
 
 ### [Credits](#credits-rewind)
 -----------------------------------------------------------------------------------------------------------------------
+## Quick Start [:rewind:](#read-me)
+
+Good Luck!
+
 ## About [:rewind:](#read-me)
 
 This WP  theme is called Immaterialize, v-0.0.1-alpha. The theme is in some sort of alpha stage. The conceit of the theme is that it began as "a starter theme called `_s`, or `underscores`, if you like" which was downloaded, with sass installed, from http://underscores.me/ and interlaced with Materialize, v1.0.0rc. "a modern responsive front-end framework based on Material Design." Therefore, "Immaterialize is based on [Underscores](https://underscores.me/), (C) 2012-2017 Automattic, Inc" with front-end framework Materialize.
