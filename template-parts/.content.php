@@ -32,8 +32,6 @@
 	<?php immaterialize_post_thumbnail(); ?>
 
 	<div class="entry-content">
-		<div class="row">
-			<div class="offset-s1 offset-m2dot5 offset-l1 col s10 m7 l6">
 		<?php
 		the_content( sprintf(
 			wp_kses(
@@ -53,10 +51,7 @@
 			'after'  => '</div>',
 		) );
 		?>
-			</div>
-		</div>
-	</div>
-<!-- .entry-content -->
+	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
 		<?php immaterialize_entry_footer(); ?>
