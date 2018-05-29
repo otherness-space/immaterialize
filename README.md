@@ -50,7 +50,7 @@ The plan
     - [x] site-branding
     - [x] site-title
     - [x] site-description
-    - [ ] entry-title
+    - [x] entry-title
     - [ ] entry-meta
   - [ ] Potential new classes
     - [ ] entry-box
