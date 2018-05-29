@@ -67,8 +67,9 @@ The plan
   - [ ] SASS notes
     - [ ] Empty
   - [ ] functions.php
-    - [x] enqueue additionals.css
-    - [x] register additionals.css
+    - [x] wp_register_style additionals.min.css
+    - [x] wp_enqueue_style additionals.min.css
+    - [x] add_action wp_enqueue_scripts additionals.min.css
     - [ ] Empty
   - [ ] Empty
 - [ ] Develop away from the underscores' basic Customizer using the elaborate [Make](https://thethemefoundry.com/wordpress-themes/make/), by The Theme Foundry, as a reference point.
