@@ -64,9 +64,11 @@ The plan
       - [x] offset-xl2dot5
   - [ ] Minimize notes
     - [x] additionals.css w/ yui for content.php before enqueue and register
+  - [ ] SASS notes
+    - [ ] Empty
   - [ ] functions.php
     - [ ] enqueue additionals.css
-    - [ ] register additionals.css
+    - [x] register additionals.css
     - [ ] Empty
   - [ ] Empty
 - [ ] Develop away from the underscores' basic Customizer using the elaborate [Make](https://thethemefoundry.com/wordpress-themes/make/), by The Theme Foundry, as a reference point.
