@@ -47,7 +47,7 @@ The plan
 - [ ] addtionals.css to accomodate implementing Materialize front end
   - [x] flow-text class responsive styles as p element. CanIuse js to make p element load as flow-text class? If so which is lighter? Are there other ways?
   - [ ] Default WP classes
-    - [ ] site-branding
+    - [x] site-branding
     - [ ] site-title
     - [ ] site-description
     - [ ] entry-title
