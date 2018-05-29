@@ -116,6 +116,12 @@
   }
 }
 
+@media only screen and (min-width: 601px) {
+	.row .col.offset-m2dot5 {
+		margin-left: 20.3333333333%;
+	}
+}
+
 @media only screen and (min-width: 630px) {
   p {
     font-size: 1.416rem;

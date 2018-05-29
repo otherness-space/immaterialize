@@ -58,7 +58,7 @@ The plan
   - [ ] New Classes
     - [ ] Materialize responsive grid additions
       - [x] offset-s2dot5
-      - [ ] offset-m2dot5
+      - [x] offset-m2dot5
       - [ ] offset-l2dot5
       - [ ] offset-xl2dot5
   - [ ] Empty
