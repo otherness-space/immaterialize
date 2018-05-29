@@ -45,6 +45,7 @@ The plan
   - [ ] content-none.php
   - [ ] content-page.php
 - [ ] addtionals.css to accomodate implementing Materialize front end
+  - [x] Add file
   - [x] flow-text class responsive styles as p element. CanIuse js to make p element load as flow-text class? If so which is lighter? Are there other ways?
   - [ ] Default WP classes
     - [x] site-branding
@@ -61,6 +62,12 @@ The plan
       - [x] offset-m2dot5
       - [x] offset-l2dot5
       - [x] offset-xl2dot5
+  - [ ] Minimize notes
+    - [x] additionals.css w/ yui for content.php before enqueue and register
+  - [ ] functions.php
+    - [ ] enqueue additionals.css
+    - [ ] register additionals.css
+    - [ ] Empty
   - [ ] Empty
 - [ ] Develop away from the underscores' basic Customizer using the elaborate [Make](https://thethemefoundry.com/wordpress-themes/make/), by The Theme Foundry, as a reference point.
   - [ ] Typography
