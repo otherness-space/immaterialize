@@ -51,7 +51,7 @@ The plan
     - [x] site-title
     - [x] site-description
     - [x] entry-title
-    - [ ] entry-meta
+    - [x] entry-meta
   - [ ] Potential new classes
     - [ ] entry-box
   - [ ] New Classes
