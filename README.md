@@ -67,7 +67,7 @@ The plan
   - [ ] SASS notes
     - [ ] Empty
   - [ ] functions.php
-    - [ ] enqueue additionals.css
+    - [x] enqueue additionals.css
     - [x] register additionals.css
     - [ ] Empty
   - [ ] Empty
