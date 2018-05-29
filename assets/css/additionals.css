@@ -200,6 +200,12 @@
 	}
 }
 
+@media only screen and (min-width: 1201px) {
+	.row .col.offset-xl2dot5 {
+		margin-left: 20.3333333333%;
+	}
+}
+
 @media only screen and (max-width: 360px) {
   p {
     font-size: 1.2rem;
