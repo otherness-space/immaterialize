@@ -52,6 +52,7 @@ The plan
     - [x] site-description
     - [x] entry-title
     - [x] entry-meta
+    - [x] @media site-description, entry-title, entry-meta for screen min-width
   - [ ] Potential new classes
     - [ ] entry-box
   - [ ] New Classes
