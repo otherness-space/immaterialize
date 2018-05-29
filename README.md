@@ -48,7 +48,7 @@ The plan
   - [x] flow-text class responsive styles as p element. CanIuse js to make p element load as flow-text class? If so which is lighter? Are there other ways?
   - [ ] Default WP classes
     - [x] site-branding
-    - [ ] site-title
+    - [x] site-title
     - [ ] site-description
     - [ ] entry-title
     - [ ] entry-meta
