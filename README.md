@@ -59,7 +59,7 @@ The plan
     - [ ] Materialize responsive grid additions
       - [x] offset-s2dot5
       - [x] offset-m2dot5
-      - [ ] offset-l2dot5
+      - [x] offset-l2dot5
       - [ ] offset-xl2dot5
   - [ ] Empty
 - [ ] Develop away from the underscores' basic Customizer using the elaborate [Make](https://thethemefoundry.com/wordpress-themes/make/), by The Theme Foundry, as a reference point.
