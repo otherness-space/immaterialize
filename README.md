@@ -39,6 +39,28 @@ Your Mom.
 WP theme in some sort of alpha stage. While Materialize is registered and enqueued it has not been completely checked.
 The plan
 - [x] Add PrismJS
+- [ ] Implement Materialize front end across /template parts
+  - [x] content.php
+  - [ ] content-search.php
+  - [ ] content-none.php
+  - [ ] content-page.php
+- [ ] addtionals.css to accomodate implementing Materialize front end
+  - [ ] flow-text styles as p selector
+  - [ ] Default WP classes
+    - [ ] site-branding
+    - [ ] site-title
+    - [ ] site-description
+    - [ ] entry-title
+    - [ ] entry-meta
+  - [ ] Potential new classes
+    - [ ] entry-box
+  - [ ] New Classes
+    - [ ] Materialize responsive grid additions
+      - [ ] offset-s2dot5
+      - [ ] offset-m2dot5
+      - [ ] offset-l2dot5
+      - [ ] offset-xl2dot5
+  - [ ] Empty
 - [ ] Develop away from the underscores' basic Customizer using the elaborate [Make](https://thethemefoundry.com/wordpress-themes/make/), by The Theme Foundry, as a reference point.
   - [ ] Typography
   - [ ] Colors
