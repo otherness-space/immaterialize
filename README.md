@@ -49,7 +49,7 @@ The plan
   - [ ] Default WP classes
     - [x] site-branding
     - [x] site-title
-    - [ ] site-description
+    - [x] site-description
     - [ ] entry-title
     - [ ] entry-meta
   - [ ] Potential new classes
