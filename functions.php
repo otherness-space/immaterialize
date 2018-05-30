@@ -282,7 +282,7 @@ function add_additionals_scripts() {
 	wp_register_style( 'additionals-min', get_template_directory_uri() . '/assets/css/additionals.min.css', 'null', 'all' );
 	wp_enqueue_style( 'additionals-min', get_stylesheet_uri(), '', '', 'all' );
 }
-add_action('wp_enqueue_scripts', 'add_additionals');
+add_action('wp_enqueue_scripts', 'add_additionals_scripts');
 
 /**
  * Customizer additions.
