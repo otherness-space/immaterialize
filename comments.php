@@ -21,6 +21,8 @@ if ( post_password_required() ) {
 ?>
 
 <div id="comments" class="comments-area">
+	<div class="row">
+		<div class="offset-s1 offset-m2dot5 offset-l1 col s10 m7 l6">
 
 	<?php
 	// You can start editing here -- including this comment!
@@ -72,4 +74,4 @@ if ( post_password_required() ) {
 	comment_form();
 	?>
 
-</div><!-- #comments -->
+</div></div></div><!-- #comments -->

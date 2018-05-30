@@ -41,7 +41,7 @@ The plan
 - [x] Add PrismJS
 - [ ] Implement Materialize front end across /
   - [ ] archive.php
-  - [ ] comments.php
+  - [x] comments.php
   - [ ] footer.php
   - [ ] index.php
   - [ ] page.php
