@@ -39,6 +39,15 @@ Your Mom.
 WP theme in some sort of alpha stage. While Materialize is registered and enqueued it has not been completely checked.
 The plan
 - [x] Add PrismJS
+- [ ] Implement Materialize front end across /
+  - [ ] archive.php
+  - [ ] comments.php
+  - [ ] footer.php
+  - [ ] index.php
+  - [ ] page.php
+  - [ ] search.php
+  - [ ] sidebar.php
+  - [ ] single.php
 - [ ] Implement Materialize front end across /template parts
   - [x] content.php
   - [x] content-search.php
