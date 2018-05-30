@@ -43,7 +43,7 @@ The plan
   - [x] content.php
   - [ ] content-search.php
   - [ ] content-none.php
-  - [ ] content-page.php
+  - [x] content-page.php
 - [ ] addtionals.css to accomodate implementing Materialize front end
   - [x] Add file
   - [x] flow-text class responsive styles as p element. CanIuse js to make p element load as flow-text class? If so which is lighter? Are there other ways?
