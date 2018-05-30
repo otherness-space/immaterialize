@@ -10,6 +10,8 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<div class="row">
+		<div class="offset-s1 offset-m2dot5 offset-l1 col s10 m7 l6">
 	<header class="entry-header">
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
@@ -32,4 +34,6 @@
 	<footer class="entry-footer">
 		<?php immaterialize_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+		</div>
+	</div>
 </article><!-- #post-<?php the_ID(); ?> -->

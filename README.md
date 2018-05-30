@@ -1,25 +1,30 @@
+[![GitHub version](https://badge.fury.io/gh/otherness-space%2Fimmaterialize.svg)](https://badge.fury.io/gh/otherness-space%2Fimmaterialize)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](github.com/otherness-space/immaterialize/blob/master/LICENSE)
+
+
 # Read Me
 
-## Contents
-#### [About](#about-rewind)
-##### [Who](#who-rewind)
-##### [What](#what-rewind)
-##### [Where](#where-rewind)
-##### [Why](#why-rewind)
+## TOC
+##### [Quick Start](#quick-start-rewind) | [About](#about-rewind) | [Who](#who-rewind) | [What](#what-rewind) | [Where](#where-rewind) | [Why](#why-rewind) | [How](#how-rewind)
+
 #### [Notes](#notes-rewind)
-##### [Note 1](#note-1-rewind)
-##### [Note 2](#note-2-rewind)
+
+##### [Note 1](#note-1-rewind) | [Note 2](#note-2-rewind)
+
 #### [Appendix](#appendix-rewind)
-##### [.gitattributes](#gitattributes-rewind)
-##### [.gitignore](#gitignore-rewind)
-##### [.exclude](#exclude-rewind)
+##### [.gitattributes](#gitattributes-rewind) | [.gitignore](#gitignore-rewind) | [.exclude](#exclude-rewind)
+
 ### [Credits](#credits-rewind)
-________________________________________________________________________________
+-----------------------------------------------------------------------------------------------------------------------
+## Quick Start [:rewind:](#read-me)
+
+Good Luck!
+
 ## About [:rewind:](#read-me)
 
-This WP  theme is called Immaterialize and is in some sort of alpha stage. The conceit of the theme is that it began as "a starter theme called `_s`, or `underscores`, if you like" which was downloaded, with sass installed, from http://underscores.me/ and interlaced with Materialize, v1.0.0rc. "a modern responsive front-end framework based on Material Design." Therefore, "Immaterialize is based on [Underscores](https://underscores.me/), (C) 2012-2017 Automattic, Inc."
+This WP  theme is called Immaterialize, v-0.0.1-alpha. The theme is in some sort of alpha stage. The conceit of the theme is that it began as "a starter theme called `_s`, or `underscores`, if you like" which was downloaded, with sass installed, from http://underscores.me/ and interlaced with Materialize, v1.0.0rc. "a modern responsive front-end framework based on Material Design." Therefore, "Immaterialize is based on [Underscores](https://underscores.me/), (C) 2012-2017 Automattic, Inc" with front-end framework Materialize.
 
-Materialize, by Alvin Wang, Alan Chang, Alex Mark, and Kevin Louie, includes code from AnimeJS, the JavaScript Animation Engine by Julian Garner; Cash-dom by Ken Wheeler and Waves by Alfiana E. Sibuea and other contributors.
+Materialize, by Alvin Wang, Alan Chang, Alex Mark, and Kevin Louie, includes code from AnimeJS, the JavaScript Animation Engine by Julian Garner; Cash-dom by Ken Wheeler, Waves by Alfiana E. Sibuea and other contributors, and Normalize.css by Nicolas Gallagher and Jonathan Neal.
 
 Names, licenses, and links are [credited below](#credits-rewind).
 
@@ -33,6 +38,55 @@ Your Mom.
 
 WP theme in some sort of alpha stage. While Materialize is registered and enqueued it has not been completely checked.
 The plan
+- [x] Add PrismJS
+- [ ] Implement Materialize front end across /
+  - [ ] archive.php
+  - [x] comments.php
+  - [ ] footer.php
+  - [ ] index.php
+  - [ ] page.php
+  - [ ] search.php
+  - [ ] sidebar.php
+  - [ ] single.php
+- [ ] Implement Materialize front end across /inc
+  - [ ] custom-header.php
+  - [ ] customizer.php
+  - [ ] jetpack.php
+  - [ ] template-functions.php
+  - [ ] template-tags.php
+- [ ] Implement Materialize front end across /template parts
+  - [x] content.php
+  - [x] content-search.php
+  - [x] content-none.php
+  - [x] content-page.php
+- [ ] addtionals.css to accomodate implementing Materialize front end
+  - [x] Add file
+  - [x] flow-text class responsive styles as p element. CanIuse js to make p element load as flow-text class? If so which is lighter? Are there other ways?
+  - [ ] Default WP classes
+    - [x] site-branding
+    - [x] site-title
+    - [x] site-description
+    - [x] entry-title
+    - [x] entry-meta
+    - [x] @media site-description, entry-title, entry-meta for screen min-width
+  - [ ] Potential new classes
+    - [ ] entry-box
+  - [ ] New Classes
+    - [ ] Materialize responsive grid additions
+      - [x] offset-s2dot5
+      - [x] offset-m2dot5
+      - [x] offset-l2dot5
+      - [x] offset-xl2dot5
+  - [ ] Minimize notes
+    - [x] additionals.css w/ yui for content.php before enqueue and register
+  - [ ] SASS notes
+    - [ ] Empty
+  - [ ] functions.php
+    - [x] wp_register_style additionals.min.css
+    - [x] wp_enqueue_style additionals.min.css
+    - [x] add_action wp_enqueue_scripts additionals.min.css
+    - [ ] Empty
+  - [ ] Empty
 - [ ] Develop away from the underscores' basic Customizer using the elaborate [Make](https://thethemefoundry.com/wordpress-themes/make/), by The Theme Foundry, as a reference point.
   - [ ] Typography
   - [ ] Colors
@@ -44,6 +98,7 @@ The plan
   - [ ] Events
   - [ ] Custom Post Types
   - [ ] User roles
+- [ ] HTML5 Boilerplate. Notes on html5-boilerplate branch [README.md](https://github.com/otherness-space/immaterialize/blob/html5-boilerplate/README.md).
 
 
 ### Where [:rewind:](#read-me)
@@ -52,6 +107,10 @@ The plan
 ### Why [:rewind:](#read-me)
 
 Also Your Mom.
+
+### How [:rewind:](#read-me)
+
+How now?
 
 ________________________________________________________________________________
 ## Notes [:rewind:](#read-me)
@@ -98,12 +157,16 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
   * http://animejs.com/documentation/
   * https://github.com/juliangarnier/anime
   * MIT
-* Cash-dom 1.3.5
+* Cash-dom, 1.3.5
   * Copyright (c) 2014-present Ken Wheeler
   * https://github.com/kenwheeler/cash
   * MIT
-* Waves v0.6.4
+* Waves, v0.6.4
   * Copyright 2014 Alfiana E. Sibuea and other contributors
   * http://fian.my.id/Waves
   * https://github.com/fians/Waves/blob/master/LICENSE
+  * MIT
+* Normalize.css, v7.0.0
+  * Copyright © Aug 14, 2012-present Nicolas Gallagher and Jonathan Neal
+  * http://github.com/necolas/normalize.css
   * MIT

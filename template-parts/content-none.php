@@ -11,10 +11,16 @@
 
 <section class="no-results not-found">
 	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'immaterialize' ); ?></h1>
+		<div class="row">
+			<div class="offset-s1 offset-m2dot5 offset-l1 col s10 m7 l6">
+				<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'immaterialize' ); ?></h1>
+			</div>
+		</div>
 	</header><!-- .page-header -->
 
 	<div class="page-content">
+		<div class="row">
+			<div class="offset-s1 offset-m2dot5 offset-l1 col s10 m7 l6">
 		<?php
 		if ( is_home() && current_user_can( 'publish_posts' ) ) :
 
@@ -36,16 +42,17 @@
 
 			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'immaterialize' ); ?></p>
 			<?php
-			get_search_form();
+//			get_search_form();
 
 		else :
 			?>
-
+			<div class="row">
+				<div class="offset-s1 offset-m2dot5 offset-l1 col s10 m7 l6">
 			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'immaterialize' ); ?></p>
 			<?php
 			get_search_form();
 
 		endif;
 		?>
-	</div><!-- .page-content -->
+	</div></div></div><!-- .page-content -->
 </section><!-- .no-results -->
