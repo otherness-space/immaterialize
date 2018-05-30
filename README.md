@@ -41,7 +41,7 @@ The plan
 - [x] Add PrismJS
 - [ ] Implement Materialize front end across /template parts
   - [x] content.php
-  - [ ] content-search.php
+  - [x] content-search.php
   - [ ] content-none.php
   - [x] content-page.php
 - [ ] addtionals.css to accomodate implementing Materialize front end
