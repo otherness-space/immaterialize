@@ -53,12 +53,12 @@
 			'after'  => '</div>',
 		) );
 		?>
-			</div>
-		</div>
 	</div>
 <!-- .entry-content -->
 
 	<footer class="entry-footer">
 		<?php immaterialize_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+		</div>
+	</div>
 </article><!-- #post-<?php the_ID(); ?> -->
