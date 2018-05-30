@@ -48,6 +48,12 @@ The plan
   - [ ] search.php
   - [ ] sidebar.php
   - [ ] single.php
+- [ ] Implement Materialize front end across /inc
+  - [ ] custom-header.php
+  - [ ] customizer.php
+  - [ ] jetpack.php
+  - [ ] template-functions.php
+  - [ ] template-tags.php
 - [ ] Implement Materialize front end across /template parts
   - [x] content.php
   - [x] content-search.php
