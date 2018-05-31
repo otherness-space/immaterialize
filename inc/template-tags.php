@@ -62,26 +62,26 @@ if ( ! function_exists( 'immaterialize_entry_footer' ) ) :
 			$categories_list = get_the_category_list( esc_html__( ', ', 'immaterialize' ) );
 			if ( $categories_list ) {
 				/* translators: 1: list of categories. */
-				printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'immaterialize' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+				printf( '<div class="cat-links">' . esc_html__( 'Posted in %1$s', 'immaterialize' ) . '</div>', $categories_list ); // WPCS: XSS OK.
 			}
 
 			/* translators: used between list items, there is a space after the comma */
 			$tags_list = get_the_tag_list( '', esc_html_x( ', ', 'list item separator', 'immaterialize' ) );
 			if ( $tags_list ) {
 				/* translators: 1: list of tags. */
-				printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'immaterialize' ) . '</span>', $tags_list ); // WPCS: XSS OK.
+				printf( '<div class="tags-links">' . esc_html__( 'Tagged %1$s', 'immaterialize' ) . '</div>', $tags_list ); // WPCS: XSS OK.
 			}
 		}
 
 		if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
-			echo '<span class="comments-link">';
+			echo '<div class="comments-link">';
 			comments_popup_link(
 				sprintf(
 					wp_kses(
 						/* translators: %s: post title */
-						__( 'Leave a Comment<span class="screen-reader-text"> on %s</span>', 'immaterialize' ),
+						__( 'Leave a Comment<div class="screen-reader-text"> on %s</div>', 'immaterialize' ),
 						array(
-							'span' => array(
+							'div' => array(
 								'class' => array(),
 							),
 						)
@@ -89,7 +89,7 @@ if ( ! function_exists( 'immaterialize_entry_footer' ) ) :
 					get_the_title()
 				)
 			);
-			echo '</span>';
+			echo '</div>';
 		}
 
 		edit_post_link(
@@ -105,8 +105,8 @@ if ( ! function_exists( 'immaterialize_entry_footer' ) ) :
 				),
 				get_the_title()
 			),
-			'<span class="edit-link">',
-			'</span>'
+			'<div class="edit-link">',
+			'</div>'
 		);
 	}
 endif;
