@@ -43,6 +43,7 @@ The plan
   - [ ] archive.php
   - [x] comments.php
   - [ ] footer.php
+    - [x] widget-title
   - [ ] index.php
   - [ ] page.php
   - [ ] search.php
