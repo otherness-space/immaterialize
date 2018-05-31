@@ -54,6 +54,7 @@ The plan
   - [ ] jetpack.php
   - [ ] template-functions.php
   - [ ] template-tags.php
+    - [x] switch spans to div
 - [ ] Implement Materialize front end across /template parts
   - [ ] content.php
     - [x] the_excerpt()
