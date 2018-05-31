@@ -29,6 +29,15 @@
 
 .entry-title {
 	margin: .25rem 0 0 .25rem;
+	line-height: 100%;
+	-webkit-transition-delay: 4s;
+	-moz-transition-delay: 4s;
+	-o-transition-delay: 4s;
+	transition-delay: 4s;
+	transition-delay: 4s;
+}
+
+.entry-title, .widget-title {
 	font-size: 6vw;
 	line-height: 100%;
 	-webkit-transition-delay: 4s;
@@ -49,6 +58,11 @@
 
 .row .col.offset-s2dot5 {
 	margin-left: 20.3333333333%;
+}
+
+.widget-title {
+
+  margin: 0 0 0 .5rem;
 }
 
 @media only screen and (min-width: 360px) {
@@ -89,13 +103,14 @@
 		font-size: 2.5vw;
 	}
 
-	.entry-title {
+	.entry-title, .widget-title {
 		font-size: 4vw;
 	}
 
 	.entry-meta {
 		margin: 0 0 0 .25rem;
 	}
+
 }
 
 @media only screen and (min-width: 540px) {
