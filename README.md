@@ -57,6 +57,7 @@ The plan
 - [ ] Implement Materialize front end across /template parts
   - [ ] content.php
     - [x] the_excerpt()
+    - [x] entry-footer
   - [x] content-search.php
   - [x] content-none.php
   - [x] content-page.php
