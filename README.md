@@ -55,7 +55,8 @@ The plan
   - [ ] template-functions.php
   - [ ] template-tags.php
 - [ ] Implement Materialize front end across /template parts
-  - [x] content.php
+  - [ ] content.php
+    - [x] the_excerpt()
   - [x] content-search.php
   - [x] content-none.php
   - [x] content-page.php
