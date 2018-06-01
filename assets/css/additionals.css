@@ -29,21 +29,14 @@
 
 .entry-title {
 	margin: .25rem 0 0 .25rem;
-	line-height: 100%;
-	-webkit-transition-delay: 4s;
-	-moz-transition-delay: 4s;
-	-o-transition-delay: 4s;
-	transition-delay: 4s;
-	transition-delay: 4s;
+  font-size: 6vw;
 }
 
 .entry-title, .widget-title {
-	font-size: 6vw;
 	line-height: 100%;
 	-webkit-transition-delay: 4s;
 	-moz-transition-delay: 4s;
 	-o-transition-delay: 4s;
-	transition-delay: 4s;
 	transition-delay: 4s;
 }
 
@@ -52,7 +45,6 @@
 	-webkit-transition-delay: 5s;
 	-moz-transition-delay: 5s;
 	-o-transition-delay: 5s;
-	transition-delay: 5s;
 	transition-delay: 5s;
 }
 
@@ -63,6 +55,8 @@
 .widget-title {
 
   margin: 0 0 0 .5rem;
+  font-size: 4vw;
+  text-transform: lowercase;
 }
 
 @media only screen and (min-width: 360px) {
@@ -103,7 +97,7 @@
 		font-size: 2.5vw;
 	}
 
-	.entry-title, .widget-title {
+	.entry-title {
 		font-size: 4vw;
 	}
 
@@ -225,4 +219,7 @@
   p {
     font-size: 1.2rem;
   }
+  .widget-title {
+		font-size: 5vw;
+	}
 }
