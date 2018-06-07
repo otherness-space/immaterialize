@@ -44,6 +44,7 @@ The plan
   - [x] comments.php
   - [ ] footer.php
     - [x] widget-title
+  - [ ] header.php
   - [ ] index.php
   - [ ] page.php
   - [ ] search.php
