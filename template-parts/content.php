@@ -33,7 +33,8 @@
 
 	<div class="entry-content">
 		<div class="row">
-			<div class="offset-s1 offset-m2dot5 offset-l1 col s10 m7 l6">
+			<div class="container justify-content display-flex">
+				<div class="col s9dot5 m9 l10 xl9">
 		<?php
 		the_excerpt( sprintf(
 			wp_kses(
@@ -52,7 +53,9 @@
 			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'immaterialize' ),
 			'after'  => '</div>',
 		) );
+
 		?>
+				</div>
 			</div>
 		</div>
 	</div>
