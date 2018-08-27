@@ -177,4 +177,6 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
   * MIT
 * PrismJS v1.14.0
   * Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind. It’s used in thousands of websites, including some of those you visit daily.
+  * Copyright (c) 2012 Lea Verou
   * https://prismjs.com/
+  * MIT
