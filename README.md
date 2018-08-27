@@ -175,3 +175,6 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
   * Copyright © Aug 14, 2012-present Nicolas Gallagher and Jonathan Neal
   * http://github.com/necolas/normalize.css
   * MIT
+* PrismJS
+  * Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind. It’s used in thousands of websites, including some of those you visit daily.
+  * https://prismjs.com/
