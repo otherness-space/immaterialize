@@ -247,6 +247,7 @@ add_action( 'wp_enqueue_scripts', 'materialize_scripts' );
 
 /**
 	* Materialize Icons
+	* function adapted from https://www.pressmate.io/adding-google-fonts-to-wordpress-theme-manually/
 	*/
 
 function add_material_icons() {
