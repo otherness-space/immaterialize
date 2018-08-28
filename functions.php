@@ -246,6 +246,15 @@ function materialize_scripts() {
 add_action( 'wp_enqueue_scripts', 'materialize_scripts' );
 
 /**
+	* Materialize Icons
+	*/
+
+function add_material_icons() {
+	wp_enqueue_style( 'material-icons', 'https://fonts.googleapis.com/icon?family=Material+Icons', false );
+}
+add_action( 'wp_enqueue_scripts', 'add_material_icons' );
+
+/**
 	* HOW TO IMPLEMENT PRISM.JS SYNTAX HIGHLIGHTING INTO YOUR WORDPRESS SITE
 	* http://crambler.com/how-to-implement-prism-js-syntax-highlighting-into-your-wordpress-site/
 	*/
