@@ -32,6 +32,9 @@
 	<?php immaterialize_post_thumbnail(); ?>
 
 	<div class="entry-content">
+		<div class="row">
+			<div class="container justify-content display-flex">
+				<div class="col s9dot5 m9 l10 xl9dot5 content-box">
 		<?php
 		the_content( sprintf(
 			wp_kses(
@@ -51,7 +54,11 @@
 			'after'  => '</div>',
 		) );
 		?>
-	</div><!-- .entry-content -->
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- .entry-content -->
 
 	<footer class="entry-footer">
 		<?php immaterialize_entry_footer(); ?>
