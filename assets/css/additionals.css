@@ -65,15 +65,36 @@
   text-transform: lowercase;
 }
 
+/**
+  * PrismJS style edits
+  */
+
+pre[class*="language-"],
+:not(pre) > code[class*="language-"] {
+  background: hsla(0, 0%, 15%, 1);
+}
+pre[class*="language-"] {
+  border: .3em solid hsla(0, 0%, 70%, 1);
+}
+
+@media only screen and (min-width: 300px) {
+  .row .col.s1, .row .col.s2, .row .col.s3, .row .col.s4, .row .col.s5, .row .col.s6, .row .col.s7, .row .col.s8, .row .col.s9, .row .col.s10, .row .col.s11, .row .col.s12 .row .col.s1dot5, .row .col.s2dot5, .row .col.s3dot5, .row .col.s4dot5, .row .col.s5dot5, .row .col.s6dot5, .row .col.s7dot5, .row .col.s8dot5, .row .col.s9dot5, .row .col.s10dot5, .row .col.s11dot5, .row .col.offset-s1, .row .col.offset-s2, .row .col.offset-s3, .row .col.offset-s4, .row .col.offset-s5, .row .col.offset-s6, .row .col.offset-s7, .row .col.offset-s8, .row .col.offset-s9, .row .col.offset-s10, .row .col.offset-s11, .row .col.offset-s12, .row .col.offset-s1dot5, .row .col.offset-s2dot5, .row .col.offset-s3dot5, .row .col.offset-s4dot5, .row .col.offset-s5dot5, .row .col.offset-s6dot5, .row .col.offset-s7dot5, .row .col.offset-s8dot5, .row .col.offset-s9dot5, .row .col.offset-s10dot5, .row .col.offset-s11dot5 {
+        margin: auto;
+        left: auto;
+        right: auto
+    }
+    .content-box {
+      width: 100vw;
+      margin: 0 0 0 2rem;
+      border: 0;
+      padding: 0;
+      left: 0;
+      right: 0;
+    }
+}
 @media only screen and (min-width: 360px) {
   p {
     font-size: 1.2rem;
-  }
-
-  .row .col.s1, .row .col.s2, .row .col.s3, .row .col.s4, .row .col.s5, .row .col.s6, .row .col.s7, .row .col.s8, .row .col.s9, .row .col.s10, .row .col.s11, .row .col.s12 .row .col.s1dot5, .row .col.s2dot5, .row .col.s3dot5, .row .col.s4dot5, .row .col.s5dot5, .row .col.s6dot5, .row .col.s7dot5, .row .col.s8dot5, .row .col.s9dot5, .row .col.s10dot5, .row .col.s11dot5, .row .col.offset-s1, .row .col.offset-s2, .row .col.offset-s3, .row .col.offset-s4, .row .col.offset-s5, .row .col.offset-s6, .row .col.offset-s7, .row .col.offset-s8, .row .col.offset-s9, .row .col.offset-s10, .row .col.offset-s11, .row .col.offset-s12, .row .col.offset-s1dot5, .row .col.offset-s2dot5, .row .col.offset-s3dot5, .row .col.offset-s4dot5, .row .col.offset-s5dot5, .row .col.offset-s6dot5, .row .col.offset-s7dot5, .row .col.offset-s8dot5, .row .col.offset-s9dot5, .row .col.offset-s10dot5, .row .col.offset-s11dot5 {
-      margin: auto;
-      left: auto;
-      right: auto
   }
   .row .col.s1dot5 {
     width: 12.5%;
@@ -498,10 +519,30 @@
 }
 
 @media only screen and (max-width: 360px) {
+  .display-flex {
+    /** width: 90%;
+    margin: 0; */
+  }
   p {
+    /** width: 90%;
+    padding: 0 0 0 3rem;  */
     font-size: 1.2rem;
   }
   .widget-title {
 		font-size: 5vw;
 	}
+  .row .col {
+    /** padding: 0 1rem; */
+  }
+  /**
+  * PrismJS
+  */
+  pre {
+    /** width: 360px;
+    padding: 0 0 0 15rem; */
+  }
+  pre[class*="language-"] {
+    /** margin:2rem;
+    padding: .5rem 0 0 6rem; */
+  }
 }
