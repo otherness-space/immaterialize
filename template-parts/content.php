@@ -12,19 +12,19 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
+        if (is_singular()) :
+            the_title('<h1 class="entry-title">', '</h1>');
+        else :
+            the_title('<h2 class="entry-title"><a href="' . esc_url(get_permalink()) . '" rel="bookmark">', '</a></h2>');
+        endif;
 
-		if ( 'post' === get_post_type() ) :
-			?>
+        if ('post' === get_post_type()) :
+            ?>
 			<div class="entry-meta">
 				<?php
-				immaterialize_posted_on();
-				immaterialize_posted_by();
-				?>
+                immaterialize_posted_on();
+                immaterialize_posted_by();
+                ?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
@@ -36,25 +36,25 @@
 			<div class="container justify-content display-flex">
 				<div class="col s9dot5 m9 l10 xl9">
 		<?php
-		the_excerpt( sprintf(
-			wp_kses(
-				/* translators: %s: Name of current post. Only visible to screen readers */
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'immaterialize' ),
-				array(
-					'span' => array(
-						'class' => array(),
-					),
-				)
-			),
-			get_the_title()
-		) );
+        the_excerpt(sprintf(
+            wp_kses(
+                /* translators: %s: Name of current post. Only visible to screen readers */
+                __('Continue reading<span class="screen-reader-text"> "%s"</span>', 'immaterialize'),
+                array(
+                    'span' => array(
+                        'class' => array(),
+                    ),
+                )
+            ),
+            get_the_title()
+        ));
 
-		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'immaterialize' ),
-			'after'  => '</div>',
-		) );
+        wp_link_pages(array(
+            'before' => '<div class="page-links">' . esc_html__('Pages:', 'immaterialize'),
+            'after'  => '</div>',
+        ));
 
-		?>
+        ?>
 				</div>
 			</div>
 		</div>
