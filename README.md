@@ -184,7 +184,7 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
   * Copyright © Aug 14, 2012-present Nicolas Gallagher and Jonathan Neal
   * [![npm](https://img.shields.io/npm/v/normalize.css.svg?style=flat-square)](https://www.npmjs.com/package/normalize.css)
   * [![GitHub forks](https://img.shields.io/github/forks/necolas/normalize.css.svg?style=social)](https://github.com/necolas/normalize.css/network)
-  * [![GitHub stars](https://img.shields.io/github/stars/necolas/normalize.css.svgs?style=social)](https://github.com/necolas/normalize.css/stargazers)
+  * [![GitHub stars](https://img.shields.io/github/stars/necolas/normalize.css.svg?style=social)](https://github.com/necolas/normalize.css/stargazers)
   * [![GitHub license](https://img.shields.io/github/license/necolas/normalize.css.svg)](https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
 * PrismJS v1.14.0
   * Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind. It’s used in thousands of websites, including some of those you visit daily.
