@@ -1,5 +1,5 @@
 [![GitHub version](https://badge.fury.io/gh/otherness-space%2Fimmaterialize.svg)](https://badge.fury.io/gh/otherness-space%2Fimmaterialize)
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/otherness-space/immaterialize)
+{::comment}[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/otherness-space/immaterialize){:/comment}
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
 
@@ -182,10 +182,9 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
   * [![GitHub license](https://img.shields.io/github/license/fians/Waves.svg)](https://github.com/fians/Waves/blob/master/LICENSE)
 * Normalize.css, v7.0.0
   * Copyright © Aug 14, 2012-present Nicolas Gallagher and Jonathan Neal
-  * [![GitHub release](https://img.shields.io/github/release/necolas/normalize.css.svg)](https://github.com/necolas/normalize.css)
+  * [![npm](https://img.shields.io/npm/v/normalize.css.svg?style=flat-square)](https://www.npmjs.com/package/normalize.css)
   * [![GitHub forks](https://img.shields.io/github/forks/necolas/normalize.css.svg)](https://github.com/necolas/normalize.css/network)
   * [![GitHub stars](https://img.shields.io/github/stars/necolas/normalize.css.svg)](https://github.com/necolas/normalize.css/stargazers)
-  * [![npm](https://img.shields.io/npm/v/normalize.css.svg?style=flat-square)](https://www.npmjs.com/package/normalize.css)
   * [![GitHub license](https://img.shields.io/github/license/necolas/normalize.css.svg)](https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
 * PrismJS v1.14.0
   * Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind. It’s used in thousands of websites, including some of those you visit daily.
