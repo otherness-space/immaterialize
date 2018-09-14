@@ -1,4 +1,6 @@
-[![GitHub version](https://badge.fury.io/gh/otherness-space%2Fimmaterialize.svg)](https://badge.fury.io/gh/otherness-space%2Fimmaterialize)<!-- [![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/otherness-space/immaterialize)-->[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+[![GitHub version](https://badge.fury.io/gh/otherness-space%2Fimmaterialize.svg)](https://badge.fury.io/gh/otherness-space%2Fimmaterialize)<!-- [![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/otherness-space/immaterialize)-->
+[![GitHub (pre-)release](https://img.shields.io/github/release/otherness-space/immaterialize/all.svg?style=social)](https://github.com/otherness-space/immaterialize)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
 
 # Read Me
