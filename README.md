@@ -185,6 +185,7 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
   * Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind. It’s used in thousands of websites, including some of those you visit daily.
   * Copyright (c) 2012 Lea Verou
   * https://prismjs.com/
+  * [![GitHub release](https://img.shields.io/github/release/PrismJS/prism.svg)](https://github.com/PrismJS/prism)
   * [![GitHub forks](https://img.shields.io/github/forks/PrismJS/prism.svg)](https://github.com/PrismJS/prism/network)
   * [![GitHub stars](https://img.shields.io/github/stars/PrismJS/prism.svg)](https://github.com/PrismJS/prism/stargazers)
   * [![GitHub license](https://img.shields.io/github/license/PrismJS/prism.svg)](https://github.com/PrismJS/prism/blob/master/LICENSE)
