@@ -177,6 +177,7 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
 * Normalize.css, v7.0.0
   * Copyright © Aug 14, 2012-present Nicolas Gallagher and Jonathan Neal
   * http://github.com/necolas/normalize.css
+  * <a href="https://www.npmjs.com/package/normalize.css"><img src="https://img.shields.io/npm/v/normalize.css.svg?style=flat-square" alt="npm version badge">
   * MIT
 * PrismJS v1.14.0
   * Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind. It’s used in thousands of websites, including some of those you visit daily.
