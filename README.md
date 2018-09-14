@@ -192,5 +192,5 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
   * https://prismjs.com/
   * [![GitHub release](https://img.shields.io/github/release/PrismJS/prism.svg?style=social)](https://github.com/PrismJS/prism)
   * [![GitHub forks](https://img.shields.io/github/forks/PrismJS/prism.svg?style=social)](https://github.com/PrismJS/prism/network)
-  * [![GitHub stars](https://img.shields.io/github/stars/PrismJS/prism.sv?style=socialg)](https://github.com/PrismJS/prism/stargazers)
+  * [![GitHub stars](https://img.shields.io/github/stars/PrismJS/prism.svg?style=social)](https://github.com/PrismJS/prism/stargazers)
   * [![GitHub license](https://img.shields.io/github/license/PrismJS/prism.svg)](https://github.com/PrismJS/prism/blob/master/LICENSE)
