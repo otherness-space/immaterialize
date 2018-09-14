@@ -172,7 +172,7 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
 * Waves, v0.6.4
   * Copyright 2014 Alfiana E. Sibuea and other contributors
   * http://fian.my.id/Waves
-  * ![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)(https://github.com/fians/Waves)
+  * [![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/fians/Waves)
   * <a href="https://github.com/fians/Waves/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license badge"></a>
 * Normalize.css, v7.0.0
   * Copyright © Aug 14, 2012-present Nicolas Gallagher and Jonathan Neal
