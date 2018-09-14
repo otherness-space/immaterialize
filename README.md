@@ -1,4 +1,5 @@
 [![GitHub version](https://badge.fury.io/gh/otherness-space%2Fimmaterialize.svg)](https://badge.fury.io/gh/otherness-space%2Fimmaterialize)
+[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/otherness-space/immaterialize)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
 
@@ -154,6 +155,7 @@ ________________________________________________________________________________
 Third party resources applied in this theme. Each resource uses a GPL compatible license. The resources are listed according to each individual license, as noted, and have links where applicable.
 
 * Copyright (c) 2014-2018 Materialize, v1.0.0-beta
+  * [![GitHub release](https://img.shields.io/github/release/Dogfalo/materialize.svg)](https://github.com/Dogfalo/materialize/)
   * [![GitHub forks](https://img.shields.io/github/forks/Dogfalo/materialize.svg)](https://github.com/Dogfalo/materialize/network)
   * [![GitHub stars](https://img.shields.io/github/stars/Dogfalo/materialize.svg)](https://github.com/Dogfalo/materialize/stargazers)
   * [![GitHub license](https://img.shields.io/github/license/Dogfalo/materialize.svg)](https://github.com/Dogfalo/materialize/blob/v1-dev/LICENSE)
@@ -161,22 +163,26 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
   * 2017 Julian Garnier
   * http://animejs.com
   * http://animejs.com/documentation/
+  * [![GitHub release](https://img.shields.io/github/release/juliangarnier/anime.svg)](https://github.com/juliangarnier/anime)
   * [![GitHub forks](https://img.shields.io/github/forks/juliangarnier/anime.svg)](https://github.com/juliangarnier/anime/network)
   * [![GitHub stars](https://img.shields.io/github/stars/juliangarnier/anime.svg)](https://github.com/juliangarnier/anime/stargazers)
   * [![GitHub license](https://img.shields.io/github/license/juliangarnier/anime.svg)](https://github.com/juliangarnier/anime/blob/master/LICENSE.md)
 * Cash-dom, 1.3.5
   * Copyright (c) 2014-present Ken Wheeler
+  * [![GitHub release](https://img.shields.io/github/release/kenwheeler/cash.svg)](https://github.com/kenwheeler/cash)
   * [![GitHub forks](https://img.shields.io/github/forks/kenwheeler/cash.svg)](https://github.com/kenwheeler/cash/network)
   * [![GitHub stars](https://img.shields.io/github/stars/kenwheeler/cash.svg)](https://github.com/kenwheeler/cash/stargazers)
   * [![GitHub license](https://img.shields.io/github/license/kenwheeler/cash.svg)](https://github.com/kenwheeler/cash/blob/master/LICENSE.md)
 * Waves, v0.6.4
   * Copyright 2014 Alfiana E. Sibuea and other contributors
   * http://fian.my.id/Waves
+  * [![GitHub release](https://img.shields.io/github/release/fians/Waves.svg)](https://github.com/fians/Waves)
   * [![GitHub forks](https://img.shields.io/github/forks/fians/Waves.svg)](https://github.com/fians/Waves/network)
   * [![GitHub stars](https://img.shields.io/github/stars/fians/Waves.svg)](https://github.com/fians/Waves/stargazers)
   * [![GitHub license](https://img.shields.io/github/license/fians/Waves.svg)](https://github.com/fians/Waves/blob/master/LICENSE)
 * Normalize.css, v7.0.0
   * Copyright © Aug 14, 2012-present Nicolas Gallagher and Jonathan Neal
+  * [![GitHub release](https://img.shields.io/github/release/necolas/normalize.css.svg)](https://github.com/necolas/normalize.css)
   * [![GitHub forks](https://img.shields.io/github/forks/necolas/normalize.css.svg)](https://github.com/necolas/normalize.css/network)
   * [![GitHub stars](https://img.shields.io/github/stars/necolas/normalize.css.svg)](https://github.com/necolas/normalize.css/stargazers)
   * [![npm](https://img.shields.io/npm/v/normalize.css.svg?style=flat-square)](https://www.npmjs.com/package/normalize.css)
