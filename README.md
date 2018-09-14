@@ -172,8 +172,7 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
 * Waves, v0.6.4
   * Copyright 2014 Alfiana E. Sibuea and other contributors
   * http://fian.my.id/Waves
-  * https://github.com/fians/Waves/blob/master/LICENSE
-  * MIT
+  * <a href="https://github.com/fians/Waves/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/normalize.css.svg?style=flat-square" alt="MIT license badge">
 * Normalize.css, v7.0.0
   * Copyright © Aug 14, 2012-present Nicolas Gallagher and Jonathan Neal
   * http://github.com/necolas/normalize.css
