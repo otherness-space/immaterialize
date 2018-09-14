@@ -155,6 +155,9 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
 
 * Copyright (c) 2014-2018 Materialize, v1.0.0-beta
   * https://github.com/Dogfalo/materialize
+  * <a href="https://cdnjs.com/libraries/materialize">
+    <img src="https://img.shields.io/cdnjs/v/materialize.svg" alt="CDNJS version badge">
+  </a>
   * MIT
 * anime.min.js, v2.2.0, JavaScript Animation Engine
   * 2017 Julian Garnier
