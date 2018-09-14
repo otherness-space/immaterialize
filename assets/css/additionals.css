@@ -65,6 +65,10 @@
   text-transform: lowercase;
 }
 
+.waves-width {
+  width: 100%;
+}
+
 /**
   * PrismJS style edits
   */
