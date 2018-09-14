@@ -20,7 +20,7 @@
 
 * * *
 
-## Quick Start [:rewind:](#read-me)
+## Quick Start [:fast_rewind:](#read-me)
 
 Good Luck!
 
