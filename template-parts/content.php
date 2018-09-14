@@ -63,8 +63,10 @@
 
 	<footer class="entry-footer">
 		<div class="row">
-			<div class="offset-s1 offset-m2dot5 offset-l1 col s10 m7 l6">
+			<div class="container justify-content display-flex">
+				<div class="col s9dot5 m9 l10 xl9dot5 content-box">
 				<?php immaterialize_entry_footer(); ?>
+				</div>
 			</div>
 		</div>
 	</footer><!-- .entry-footer -->
