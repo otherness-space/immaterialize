@@ -171,7 +171,7 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
   * Copyright (c) 2014-present Ken Wheeler
   * [![GitHub release](https://img.shields.io/github/release/kenwheeler/cash.svg?style=social)](https://github.com/kenwheeler/cash)
   * [![GitHub forks](https://img.shields.io/github/forks/kenwheeler/cash.svg?style=social)](https://github.com/kenwheeler/cash/network)
-  * [![GitHub stars](https://img.shields.io/github/stars/kenwheeler/cash.svg)](https://github.com/kenwheeler/cash/stargazers)
+  * [![GitHub stars](https://img.shields.io/github/stars/kenwheeler/cash.svg?style=social)](https://github.com/kenwheeler/cash/stargazers)
   * [![GitHub license](https://img.shields.io/github/license/kenwheeler/cash.svg)](https://github.com/kenwheeler/cash/blob/master/LICENSE.md)
 * Waves, v0.6.4
   * Copyright 2014 Alfiana E. Sibuea and other contributors
