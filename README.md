@@ -19,8 +19,8 @@
 -----------------------------------------------------------------------------------------------------------------------
 ## Quick Start [:rewind:](#read-me)
 
-Good Luck!<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"><i class="material-icons">face</i></link>
+Good Luck!<style href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"><i class="material-icons">face</i></style>
 
 ## About [:rewind:](#read-me)
 
