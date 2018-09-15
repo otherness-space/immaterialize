@@ -1,29 +1,4 @@
-<style type="text/css">
-@font-face {
-font-family: 'Material Icons';
-font-style: normal;
-font-weight: 400;
-src: url(https://fonts.gstatic.com/s/materialicons/v41/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
-}
-
-.material-icons {
-font-family: 'Material Icons';
-font-weight: normal;
-font-style: normal;
-font-size: 24px;
-line-height: 1;
-letter-spacing: normal;
-text-transform: none;
-display: inline-block;
-white-space: nowrap;
-word-wrap: normal;
-direction: ltr;
--webkit-font-feature-settings: 'liga';
--webkit-font-smoothing: antialiased;
-}
-</style>
-
-[![GitHub version](https://badge.fury.io/gh/otherness-space%2Fimmaterialize.svg)](https://badge.fury.io/gh/otherness-space%2Fimmaterialize)<!-- [![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/otherness-space/immaterialize)-->
+[![GitHub version](https://badge.fury.io/gh/otherness-space%2Fimmaterialize.svg)](https://badge.fury.io/gh/otherness-space%2Fimmaterialize)<!-- [![GitHub release](https://img.shields.io/github/release/otherness-space/immaterialize.svg)](https://github.com/otherness-space/immaterialize)-->
 [![GitHub (pre-)release](https://img.shields.io/github/release/otherness-space/immaterialize/all.svg?style=social)](https://github.com/otherness-space/immaterialize)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
@@ -181,43 +156,26 @@ codesniffer.ruleset.xml export-ignore
 
 Third party resources applied in this theme. Each resource uses a GPL compatible license. The resources are listed according to each individual license, as noted, and have links where applicable.
 
--   Copyright (c) 2014-2018 Materialize, v1.0.0-beta
-    -   [![GitHub release](https://img.shields.io/github/release/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/)
-    -   [![GitHub forks](https://img.shields.io/github/forks/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/network)
-    -   [![GitHub stars](https://img.shields.io/github/stars/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/stargazers)
-    -   [![GitHub license](https://img.shields.io/github/license/Dogfalo/materialize.svg)](https://github.com/Dogfalo/materialize/blob/v1-dev/LICENSE)
+-   Materialize, v1.0.0-beta
+    -   Copyright (c) 2014-2018
+    -   [![GitHub release](https://img.shields.io/github/release/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/) [![GitHub forks](https://img.shields.io/github/forks/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/network) [![GitHub stars](https://img.shields.io/github/stars/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/stargazers) [![GitHub license](https://img.shields.io/github/license/Dogfalo/materialize.svg)](https://github.com/Dogfalo/materialize/blob/v1-dev/LICENSE)
 -   anime.min.js, v2.2.0, JavaScript Animation Engine
     -   2017 Julian Garnier
     -   <http://animejs.com>
     -   <http://animejs.com/documentation/>
-    -   [![GitHub release](https://img.shields.io/github/release/juliangarnier/anime.svg?style=social)](https://github.com/juliangarnier/anime)
-    -   [![GitHub forks](https://img.shields.io/github/forks/juliangarnier/anime.svg?style=social)](https://github.com/juliangarnier/anime/network)
-    -   [![GitHub stars](https://img.shields.io/github/stars/juliangarnier/anime.svg?style=social)](https://github.com/juliangarnier/anime/stargazers)
-    -   [![GitHub license](https://img.shields.io/github/license/juliangarnier/anime.svg)](https://github.com/juliangarnier/anime/blob/master/LICENSE.md)
+    -   [![GitHub release](https://img.shields.io/github/release/juliangarnier/anime.svg?style=social)](https://github.com/juliangarnier/anime) [![GitHub forks](https://img.shields.io/github/forks/juliangarnier/anime.svg?style=social)](https://github.com/juliangarnier/anime/network) [![GitHub stars](https://img.shields.io/github/stars/juliangarnier/anime.svg?style=social)](https://github.com/juliangarnier/anime/stargazers) [![GitHub license](https://img.shields.io/github/license/juliangarnier/anime.svg)](https://github.com/juliangarnier/anime/blob/master/LICENSE.md)
 -   Cash-dom, 1.3.5
     -   Copyright (c) 2014-present Ken Wheeler
-    -   [![GitHub release](https://img.shields.io/github/release/kenwheeler/cash.svg?style=social)](https://github.com/kenwheeler/cash)
-    -   [![GitHub forks](https://img.shields.io/github/forks/kenwheeler/cash.svg?style=social)](https://github.com/kenwheeler/cash/network)
-    -   [![GitHub stars](https://img.shields.io/github/stars/kenwheeler/cash.svg?style=social)](https://github.com/kenwheeler/cash/stargazers)
-    -   [![GitHub license](https://img.shields.io/github/license/kenwheeler/cash.svg)](https://github.com/kenwheeler/cash/blob/master/LICENSE.md)
+    -   [![GitHub release](https://img.shields.io/github/release/kenwheeler/cash.svg?style=social)](https://github.com/kenwheeler/cash) [![GitHub forks](https://img.shields.io/github/forks/kenwheeler/cash.svg?style=social)](https://github.com/kenwheeler/cash/network) [![GitHub stars](https://img.shields.io/github/stars/kenwheeler/cash.svg?style=social)](https://github.com/kenwheeler/cash/stargazers) [![GitHub license](https://img.shields.io/github/license/kenwheeler/cash.svg)](https://github.com/kenwheeler/cash/blob/master/LICENSE.md)
 -   Waves, v0.6.4
     -   Copyright 2014 Alfiana E. Sibuea and other contributors
     -   <http://fian.my.id/Waves>
-    -   [![GitHub release](https://img.shields.io/github/release/fians/Waves.svg?style=social)](https://github.com/fians/Waves)
-    -   [![GitHub forks](https://img.shields.io/github/forks/fians/Waves.svg?style=social)](https://github.com/fians/Waves/network)
-    -   [![GitHub stars](https://img.shields.io/github/stars/fians/Waves.svg?style=social)](https://github.com/fians/Waves/stargazers)
-    -   [![GitHub license](https://img.shields.io/github/license/fians/Waves.svg)](https://github.com/fians/Waves/blob/master/LICENSE)
+    -   [![GitHub release](https://img.shields.io/github/release/fians/Waves.svg?style=social)](https://github.com/fians/Waves) [![GitHub forks](https://img.shields.io/github/forks/fians/Waves.svg?style=social)](https://github.com/fians/Waves/network) [![GitHub stars](https://img.shields.io/github/stars/fians/Waves.svg?style=social)](https://github.com/fians/Waves/stargazers) [![GitHub license](https://img.shields.io/github/license/fians/Waves.svg)](https://github.com/fians/Waves/blob/master/LICENSE)
 -   Normalize.css, v7.0.0
     -   Copyright © Aug 14, 2012-present Nicolas Gallagher and Jonathan Neal
-    -   [![npm](https://img.shields.io/npm/v/normalize.css.svg?style=flat-square)](https://www.npmjs.com/package/normalize.css)
-    -   [![GitHub forks](https://img.shields.io/github/forks/necolas/normalize.css.svg?style=social)](https://github.com/necolas/normalize.css/network)
-    -   [![GitHub stars](https://img.shields.io/github/stars/necolas/normalize.css.svg?style=social)](https://github.com/necolas/normalize.css/stargazers)
-    -   [![GitHub license](https://img.shields.io/github/license/necolas/normalize.css.svg)](https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
+    -   [![npm](https://img.shields.io/npm/v/normalize.css.svg?style=flat-square)](https://www.npmjs.com/package/normalize.css) [![GitHub forks](https://img.shields.io/github/forks/necolas/normalize.css.svg?style=social)](https://github.com/necolas/normalize.css/network) [![GitHub stars](https://img.shields.io/github/stars/necolas/normalize.css.svg?style=social)](https://github.com/necolas/normalize.css/stargazers) [![GitHub license](https://img.shields.io/github/license/necolas/normalize.css.svg)](https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
 -   PrismJS v1.14.0
     -   Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind. It’s used in thousands of websites, including some of those you visit daily.
     -   Copyright (c) 2012 Lea Verou
     -   <https://prismjs.com/>
-    -   [![GitHub release](https://img.shields.io/github/release/PrismJS/prism.svg?style=social)](https://github.com/PrismJS/prism)
-    -   [![GitHub forks](https://img.shields.io/github/forks/PrismJS/prism.svg?style=social)](https://github.com/PrismJS/prism/network)
-    -   [![GitHub stars](https://img.shields.io/github/stars/PrismJS/prism.svg?style=social)](https://github.com/PrismJS/prism/stargazers)
-    -   [![GitHub license](https://img.shields.io/github/license/PrismJS/prism.svg)](https://github.com/PrismJS/prism/blob/master/LICENSE)
+    -   [![GitHub release](https://img.shields.io/github/release/PrismJS/prism.svg?style=social)](https://github.com/PrismJS/prism) [![GitHub forks](https://img.shields.io/github/forks/PrismJS/prism.svg?style=social)](https://github.com/PrismJS/prism/network) [![GitHub stars](https://img.shields.io/github/stars/PrismJS/prism.svg?style=social)](https://github.com/PrismJS/prism/stargazers) [![GitHub license](https://img.shields.io/github/license/PrismJS/prism.svg)](https://github.com/PrismJS/prism/blob/master/LICENSE)
