@@ -1,3 +1,28 @@
+<style>
+@font-face {
+font-family: 'Material Icons';
+font-style: normal;
+font-weight: 400;
+src: url(https://fonts.gstatic.com/s/materialicons/v41/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+font-family: 'Material Icons';
+font-weight: normal;
+font-style: normal;
+font-size: 24px;
+line-height: 1;
+letter-spacing: normal;
+text-transform: none;
+display: inline-block;
+white-space: nowrap;
+word-wrap: normal;
+direction: ltr;
+-webkit-font-feature-settings: 'liga';
+-webkit-font-smoothing: antialiased;
+}
+</style>
+
 [![GitHub version](https://badge.fury.io/gh/otherness-space%2Fimmaterialize.svg)](https://badge.fury.io/gh/otherness-space%2Fimmaterialize)<!-- [![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/otherness-space/immaterialize)-->
 [![GitHub (pre-)release](https://img.shields.io/github/release/otherness-space/immaterialize/all.svg?style=social)](https://github.com/otherness-space/immaterialize)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
@@ -19,8 +44,7 @@
 -----------------------------------------------------------------------------------------------------------------------
 ## Quick Start [:rewind:](#read-me)
 
-Good Luck!<style href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"><i class="material-icons">face</i></style>
+Good Luck!
 
 ## About [:rewind:](#read-me)
 
