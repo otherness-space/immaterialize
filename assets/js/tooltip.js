@@ -1,4 +1,4 @@
-(function ($, anim) {
+(function($, anim) {
   'use strict';
 
   let _defaults = {
@@ -11,7 +11,6 @@
     position: 'bottom',
     transitionMovement: 10
   };
-
 
   /**
    * @class
@@ -96,16 +95,16 @@
       this.el.removeEventListener('blur', this._handleBlurBound, true);
     }
 
-    open() {
+    open(isManual) {
       if (this.isOpen) {
         return;
       }
-
+      isManual = isManual === undefined ? true : undefined; // Default value true
       this.isOpen = true;
       // Update tooltip content with HTML attribute options
       this.options = $.extend({}, this.options, this._getAttributeOptions());
       this._updateTooltipContent();
-      this._setEnterDelayTimeout();
+      this._setEnterDelayTimeout(isManual);
     }
 
     close() {
@@ -113,6 +112,8 @@
         return;
       }
 
+      this.isHovered = false;
+      this.isFocused = false;
       this.isOpen = false;
       this._setExitDelayTimeout();
     }
@@ -135,11 +136,11 @@
     /**
      * Create timeout which delays when the toast closes
      */
-    _setEnterDelayTimeout() {
+    _setEnterDelayTimeout(isManual) {
       clearTimeout(this._enterDelayTimeout);
 
       this._enterDelayTimeout = setTimeout(() => {
-        if (!this.isHovered && !this.isFocused) {
+        if (!this.isHovered && !this.isFocused && !isManual) {
           return;
         }
 
@@ -159,27 +160,23 @@
         targetTop,
         targetLeft;
 
-      this.xMovement = 0,
-        this.yMovement = 0;
+      (this.xMovement = 0), (this.yMovement = 0);
 
       targetTop = origin.getBoundingClientRect().top + M.getDocumentScrollTop();
       targetLeft = origin.getBoundingClientRect().left + M.getDocumentScrollLeft();
 
       if (this.options.position === 'top') {
-        targetTop += -(tooltipHeight) - margin;
+        targetTop += -tooltipHeight - margin;
         targetLeft += originWidth / 2 - tooltipWidth / 2;
-        this.yMovement = -(this.options.transitionMovement);
-
+        this.yMovement = -this.options.transitionMovement;
       } else if (this.options.position === 'right') {
         targetTop += originHeight / 2 - tooltipHeight / 2;
         targetLeft += originWidth + margin;
         this.xMovement = this.options.transitionMovement;
-
       } else if (this.options.position === 'left') {
         targetTop += originHeight / 2 - tooltipHeight / 2;
-        targetLeft += -(tooltipWidth) - margin;
-        this.xMovement = -(this.options.transitionMovement);
-
+        targetLeft += -tooltipWidth - margin;
+        this.xMovement = -this.options.transitionMovement;
       } else {
         targetTop += originHeight + margin;
         targetLeft += originWidth / 2 - tooltipWidth / 2;
@@ -187,7 +184,11 @@
       }
 
       newCoordinates = this._repositionWithinScreen(
-        targetLeft, targetTop, tooltipWidth, tooltipHeight);
+        targetLeft,
+        targetTop,
+        tooltipWidth,
+        tooltipHeight
+      );
       $(tooltip).css({
         top: newCoordinates.y + 'px',
         left: newCoordinates.x + 'px'
@@ -256,17 +257,21 @@
 
     _handleMouseEnter() {
       this.isHovered = true;
-      this.open();
+      this.isFocused = false; // Allows close of tooltip when opened by focus.
+      this.open(false);
     }
 
     _handleMouseLeave() {
       this.isHovered = false;
+      this.isFocused = false; // Allows close of tooltip when opened by focus.
       this.close();
     }
 
     _handleFocus() {
-      this.isFocused = true;
-      this.open();
+      if (M.tabPressed) {
+        this.isFocused = true;
+        this.open(false);
+      }
     }
 
     _handleBlur() {
@@ -295,5 +300,4 @@
   if (M.jQueryLoaded) {
     M.initializeJqueryWrapper(Tooltip, 'tooltip', 'M_Tooltip');
   }
-
 })(cash, M.anime);

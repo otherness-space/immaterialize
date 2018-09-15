@@ -1,4 +1,4 @@
-(function ($, anim) {
+(function($, anim) {
   'use strict';
 
   let _defaults = {
@@ -22,7 +22,6 @@
      * @param {Object} options
      */
     constructor(el, options) {
-
       super(Materialbox, el, options);
 
       this.el.M_Materialbox = this;
@@ -45,7 +44,7 @@
       this.originalWidth = 0;
       this.originalHeight = 0;
       this.originInlineStyles = this.$el.attr('style');
-      this.caption = this.el.getAttribute('data-caption') || "";
+      this.caption = this.el.getAttribute('data-caption') || '';
 
       // Wrap
       this.$el.before(this.placeholder);
@@ -76,6 +75,13 @@
     destroy() {
       this._removeEventHandlers();
       this.el.M_Materialbox = undefined;
+
+      // Unwrap image
+      $(this.placeholder)
+        .after(this.el)
+        .remove();
+
+      this.$el.removeAttr('style');
     }
 
     /**
@@ -99,8 +105,7 @@
      */
     _handleMaterialboxClick(e) {
       // If already modal, return to original
-      if (this.doneAnimating === false ||
-          (this.overlayActive && this.doneAnimating)) {
+      if (this.doneAnimating === false || (this.overlayActive && this.doneAnimating)) {
         this.close();
       } else {
         this.open();
@@ -131,9 +136,7 @@
      */
     _handleWindowEscape(e) {
       // ESC key
-      if (e.keyCode === 27 &&
-          this.doneAnimating &&
-          this.overlayActive) {
+      if (e.keyCode === 27 && this.doneAnimating && this.overlayActive) {
         this.close();
       }
     }
@@ -150,8 +153,7 @@
           curr.css('overflow', 'visible');
           if (this.ancestorsChanged === undefined) {
             this.ancestorsChanged = curr;
-          }
-          else {
+          } else {
             this.ancestorsChanged = this.ancestorsChanged.add(curr);
           }
         }
@@ -167,15 +169,23 @@
         targets: this.el,
         height: [this.originalHeight, this.newHeight],
         width: [this.originalWidth, this.newWidth],
-        left: M.getDocumentScrollLeft() + this.windowWidth/2 - this.placeholder.offset().left - this.newWidth/2,
-        top: M.getDocumentScrollTop() + this.windowHeight/2 - this.placeholder.offset().top - this.newHeight/2,
+        left:
+          M.getDocumentScrollLeft() +
+          this.windowWidth / 2 -
+          this.placeholder.offset().left -
+          this.newWidth / 2,
+        top:
+          M.getDocumentScrollTop() +
+          this.windowHeight / 2 -
+          this.placeholder.offset().top -
+          this.newHeight / 2,
         duration: this.options.inDuration,
         easing: 'easeOutQuad',
         complete: () => {
           this.doneAnimating = true;
 
           // onOpenEnd callback
-          if (typeof(this.options.onOpenEnd) === 'function') {
+          if (typeof this.options.onOpenEnd === 'function') {
             this.options.onOpenEnd.call(this, this.el);
           }
         }
@@ -224,7 +234,7 @@
           }
 
           this.$el.removeAttr('style');
-          this.$el.attr('style', this.originInlineStyles);
+          this.originInlineStyles && this.$el.attr('style', this.originInlineStyles);
 
           // Remove class
           this.$el.removeClass('active');
@@ -236,7 +246,7 @@
           }
 
           // onCloseEnd callback
-          if (typeof(this.options.onCloseEnd) === 'function') {
+          if (typeof this.options.onCloseEnd === 'function') {
             this.options.onCloseEnd.call(this, this.el);
           }
         }
@@ -251,7 +261,7 @@
     _updateVars() {
       this.windowWidth = window.innerWidth;
       this.windowHeight = window.innerHeight;
-      this.caption = this.el.getAttribute('data-caption') || "";
+      this.caption = this.el.getAttribute('data-caption') || '';
     }
 
     /**
@@ -268,7 +278,7 @@
       this.overlayActive = true;
 
       // onOpenStart callback
-      if (typeof(this.options.onOpenStart) === 'function') {
+      if (typeof this.options.onOpenStart === 'function') {
         this.options.onOpenStart.call(this, this.el);
       }
 
@@ -337,14 +347,14 @@
       });
 
       // Add and animate caption if it exists
-      if (this.caption !== "") {
+      if (this.caption !== '') {
         if (this.$photocaption) {
           anim.remove(this.$photoCaption[0]);
         }
         this.$photoCaption = $('<div class="materialbox-caption"></div>');
         this.$photoCaption.text(this.caption);
         $('body').append(this.$photoCaption);
-        this.$photoCaption.css({ "display": "inline" });
+        this.$photoCaption.css({ display: 'inline' });
 
         anim({
           targets: this.$photoCaption[0],
@@ -365,8 +375,7 @@
         ratio = this.originalHeight / this.originalWidth;
         this.newWidth = this.windowWidth * 0.9;
         this.newHeight = this.windowWidth * 0.9 * ratio;
-      }
-      else {
+      } else {
         ratio = this.originalWidth / this.originalHeight;
         this.newWidth = this.windowHeight * 0.9 * ratio;
         this.newHeight = this.windowHeight * 0.9;
@@ -392,14 +401,14 @@
       this.doneAnimating = false;
 
       // onCloseStart callback
-      if (typeof(this.options.onCloseStart) === 'function') {
+      if (typeof this.options.onCloseStart === 'function') {
         this.options.onCloseStart.call(this, this.el);
       }
 
       anim.remove(this.el);
       anim.remove(this.$overlay[0]);
 
-      if (this.caption !== "") {
+      if (this.caption !== '') {
         anim.remove(this.$photoCaption[0]);
       }
 
@@ -422,7 +431,7 @@
       this._animateImageOut();
 
       // Remove Caption + reset css settings on image
-      if (this.caption !== "") {
+      if (this.caption !== '') {
         anim({
           targets: this.$photoCaption[0],
           opacity: 0,
@@ -441,5 +450,4 @@
   if (M.jQueryLoaded) {
     M.initializeJqueryWrapper(Materialbox, 'materialbox', 'M_Materialbox');
   }
-
-}(cash, M.anime));
+})(cash, M.anime);

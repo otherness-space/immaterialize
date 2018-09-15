@@ -15,7 +15,6 @@
     endingTop: '10%'
   };
 
-
   /**
    * @class
    *
@@ -58,6 +57,7 @@
       this._openingTrigger = undefined;
       this.$overlay = $('<div class="modal-overlay"></div>');
       this.el.tabIndex = 0;
+      this._nthModalOpened = 0;
 
       Modal._count++;
       this._setupEventHandlers();
@@ -120,7 +120,7 @@
      * @param {Event} e
      */
     _handleTriggerClick(e) {
-      let $trigger =  $(e.target).closest('.modal-trigger');
+      let $trigger = $(e.target).closest('.modal-trigger');
       if ($trigger.length) {
         let modalId = M.getIdFromTrigger($trigger[0]);
         let modalInstance = document.getElementById(modalId).M_Modal;
@@ -167,7 +167,8 @@
      * @param {Event} e
      */
     _handleFocus(e) {
-      if (!this.el.contains(e.target)) {
+      // Only trap focus if this modal is the last model opened (prevents loops in nested modals).
+      if (!this.el.contains(e.target) && this._nthModalOpened === Modal._modalsOpen) {
         this.el.focus();
       }
     }
@@ -201,7 +202,7 @@
         easing: 'easeOutCubic',
         // Handle modal onOpenEnd callback
         complete: () => {
-          if (typeof(this.options.onOpenEnd) === 'function') {
+          if (typeof this.options.onOpenEnd === 'function') {
             this.options.onOpenEnd.call(this, this.el, this._openingTrigger);
           }
         }
@@ -215,13 +216,13 @@
         });
         anim(enterAnimOptions);
 
-      // Normal modal animation
+        // Normal modal animation
       } else {
         $.extend(enterAnimOptions, {
           top: [this.options.startingTop, this.options.endingTop],
           opacity: 1,
-          scaleX: [.8, 1],
-          scaleY: [.8, 1]
+          scaleX: [0.8, 1],
+          scaleY: [0.8, 1]
         });
         anim(enterAnimOptions);
       }
@@ -250,7 +251,7 @@
           this.$overlay.remove();
 
           // Call onCloseEnd callback
-          if (typeof(this.options.onCloseEnd) === 'function') {
+          if (typeof this.options.onCloseEnd === 'function') {
             this.options.onCloseEnd.call(this, this.el);
           }
         }
@@ -264,7 +265,7 @@
         });
         anim(exitAnimOptions);
 
-      // Normal modal animation
+        // Normal modal animation
       } else {
         $.extend(exitAnimOptions, {
           top: [this.options.endingTop, this.options.startingTop],
@@ -275,7 +276,6 @@
         anim(exitAnimOptions);
       }
     }
-
 
     /**
      * Open Modal
@@ -288,6 +288,7 @@
 
       this.isOpen = true;
       Modal._modalsOpen++;
+      this._nthModalOpened = Modal._modalsOpen;
 
       // Set Z-Index based on number of currently open modals
       this.$overlay[0].style.zIndex = 1000 + Modal._modalsOpen * 2;
@@ -297,7 +298,7 @@
       this._openingTrigger = !!$trigger ? $trigger[0] : undefined;
 
       // onOpenStart callback
-      if (typeof(this.options.onOpenStart) === 'function') {
+      if (typeof this.options.onOpenStart === 'function') {
         this.options.onOpenStart.call(this, this.el, this._openingTrigger);
       }
 
@@ -335,9 +336,10 @@
 
       this.isOpen = false;
       Modal._modalsOpen--;
+      this._nthModalOpened = 0;
 
       // Call onCloseStart callback
-      if (typeof(this.options.onCloseStart) === 'function') {
+      if (typeof this.options.onCloseStart === 'function') {
         this.options.onCloseStart.call(this, this.el);
       }
 
@@ -350,7 +352,7 @@
 
       if (this.options.dismissible) {
         document.removeEventListener('keydown', this._handleKeydownBound);
-        document.removeEventListener('focus', this._handleFocusBound);
+        document.removeEventListener('focus', this._handleFocusBound, true);
       }
 
       anim.remove(this.el);
@@ -377,5 +379,4 @@
   if (M.jQueryLoaded) {
     M.initializeJqueryWrapper(Modal, 'modal', 'M_Modal');
   }
-
 })(cash, M.anime);

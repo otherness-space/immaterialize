@@ -156,7 +156,7 @@ codesniffer.ruleset.xml export-ignore
 
 Third party resources applied in this theme. Each resource uses a GPL compatible license. The resources are listed according to each individual license, as noted, and have links where applicable.
 
--   Materialize, v1.0.0-beta
+-   Materialize, v1.0.0
     -   Copyright (c) 2014-2018
     -   [![GitHub release](https://img.shields.io/github/release/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/) [![GitHub forks](https://img.shields.io/github/forks/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/network) [![GitHub stars](https://img.shields.io/github/stars/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/stargazers) [![GitHub license](https://img.shields.io/github/license/Dogfalo/materialize.svg)](https://github.com/Dogfalo/materialize/blob/v1-dev/LICENSE)
 -   anime.min.js, v2.2.0, JavaScript Animation Engine
@@ -174,7 +174,7 @@ Third party resources applied in this theme. Each resource uses a GPL compatible
 -   Normalize.css, v7.0.0
     -   Copyright © Aug 14, 2012-present Nicolas Gallagher and Jonathan Neal
     -   [![npm](https://img.shields.io/npm/v/normalize.css.svg?style=flat-square)](https://www.npmjs.com/package/normalize.css) [![GitHub forks](https://img.shields.io/github/forks/necolas/normalize.css.svg?style=social)](https://github.com/necolas/normalize.css/network) [![GitHub stars](https://img.shields.io/github/stars/necolas/normalize.css.svg?style=social)](https://github.com/necolas/normalize.css/stargazers) [![GitHub license](https://img.shields.io/github/license/necolas/normalize.css.svg)](https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
--   PrismJS v1.14.0
+-   PrismJS v1.15.0
     -   Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind. It’s used in thousands of websites, including some of those you visit daily.
     -   Copyright (c) 2012 Lea Verou
     -   <https://prismjs.com/>
