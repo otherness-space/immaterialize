@@ -1,4 +1,4 @@
-<style>
+<style type="text/css">
 @font-face {
 font-family: 'Material Icons';
 font-style: normal;
