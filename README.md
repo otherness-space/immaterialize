@@ -1,44 +1,44 @@
-[![GitHub version](https://badge.fury.io/gh/otherness-space%2Fimmaterialize.svg)](https://badge.fury.io/gh/otherness-space%2Fimmaterialize)<!-- [![GitHub release](https://img.shields.io/github/release/otherness-space/immaterialize.svg)](https://github.com/otherness-space/immaterialize)-->
-[![GitHub (pre-)release](https://img.shields.io/github/release/otherness-space/immaterialize/all.svg?style=social)](https://github.com/otherness-space/immaterialize)
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+<!-- [![GitHub version](https://badge.fury.io/gh/otherness-space%2Fimmaterialize.svg)](https://badge.fury.io/gh/otherness-space%2Fimmaterialize)<!-- [![GitHub release](https://img.shields.io/github/release/otherness-space/immaterialize.svg)](https://github.com/otherness-space/immaterialize)--> -->
+<!-- [![GitHub (pre-)release](https://img.shields.io/github/release/otherness-space/immaterialize/all.svg?style=social)](https://github.com/otherness-space/immaterialize) -->
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=social)](LICENSE)
 
 # Read Me
 
 ## TOC
 
-##### [Quick Start](#quick-start-rewind) \| [About](#about-rewind) \| [Who](#who-rewind) \| [What](#what-rewind) \| [Where](#where-rewind) \| [Why](#why-rewind) \| [How](#how-rewind)
+##### [Quick Start](#quick-start-) \| [About](#about-) \| [Who](#who-) \| [What](#what-) \| [Where](#where-) \| [Why](#why-) \| [How](#how-)
 
-#### [Notes](#notes-rewind)
+#### [Notes](#notes-)
 
-##### [Note 1](#note-1-rewind) \| [Note 2](#note-2-rewind)
+##### [Note 1](#note-1-) \| [Note 2](#note-2-)
 
-#### [Appendix](#appendix-rewind)
+#### [Appendix](#appendix-)
 
-##### [.gitattributes](#gitattributes-rewind) \| [.gitignore](#gitignore-rewind) \| [.exclude](#exclude-rewind)
+##### [.gitattributes](#gitattributes-) \| [.gitignore](#gitignore-) \| [.exclude](#exclude-)
 
-### [Credits](#credits-rewind)
+### [Credits](#credits-)
 
 * * *
 
-## Quick Start [:rewind:](#read-me)
+## Quick Start [≪](#read-me)
 
 Good Luck!
 
-## About [:rewind:](#read-me)
+## About [≪](#read-me)
 
 This WP  theme is called Immaterialize, v-0.0.1-alpha. The theme is in some sort of alpha stage. The conceit of the theme is that it began as "a starter theme called `_s`, or `underscores`, if you like" which was downloaded, with sass installed, from <http://underscores.me/> and interlaced with Materialize, v1.0.0rc. "a modern responsive front-end framework based on Material Design." Therefore, "Immaterialize is based on [Underscores](https://underscores.me/), (C) 2012-2017 Automattic, Inc" with front-end framework Materialize.
 
 Materialize, by Alvin Wang, Alan Chang, Alex Mark, and Kevin Louie, includes code from AnimeJS, the JavaScript Animation Engine by Julian Garner; Cash-dom by Ken Wheeler, Waves by Alfiana E. Sibuea and other contributors, and Normalize.css by Nicolas Gallagher and Jonathan Neal.
 
-Names, licenses, and links are [credited below](#credits-rewind).
+Names, licenses, and links are [credited below](#credits-).
 
 I have noticed that most of the third-party code that is utilized by Materialize is not up-to-date with each individual project's current version.
 
-### Who [:rewind:](#read-me)
+### Who [≪](#read-me)
 
 Your Mom.
 
-### What [:rewind:](#read-me)
+### What [≪](#read-me)
 
 WP theme in some sort of alpha stage. While Materialize is registered and enqueued it has not been completely checked.
 The plan
@@ -110,29 +110,29 @@ The plan
     -   [ ] User roles
 -   [ ] HTML5 Boilerplate. Notes on html5-boilerplate branch [README.md](https://github.com/otherness-space/immaterialize/blob/html5-boilerplate/README.md).
 
-### Where [:rewind:](#read-me)
+### Where [≪](#read-me)
 
-### Why [:rewind:](#read-me)
+### Why [≪](#read-me)
 
 Also Your Mom.
 
-### How [:rewind:](#read-me)
+### How [≪](#read-me)
 
 How now?
 
 * * *
 
-## Notes [:rewind:](#read-me)
+## Notes [≪](#read-me)
 
-### Note 1 [:rewind:](#read-me)
+### Note 1 [≪](#read-me)
 
-### Note 2 [:rewind:](#read-me)
+### Note 2 [≪](#read-me)
 
 * * *
 
-## Appendix [:rewind:](#read-me)
+## Appendix [≪](#read-me)
 
-### .gitattributes [:rewind:](#read-me)
+### .gitattributes [≪](#read-me)
 
 > Git attribute data also allows you to do some interesting things when exporting an archive of your project.
 
@@ -146,13 +146,13 @@ codesniffer.ruleset.xml export-ignore
 
 <https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#Exporting-Your-Repository>
 
-### .gitignore [:rewind:](#read-me)
+### .gitignore [≪](#read-me)
 
-### .exclude [:rewind:](#read-me)
+### .exclude [≪](#read-me)
 
 * * *
 
-### Credits [:rewind:](#read-me)
+### Credits [≪](#read-me)
 
 Third party resources applied in this theme. Each resource uses a GPL compatible license. The resources are listed according to each individual license, as noted, and have links where applicable.
 
